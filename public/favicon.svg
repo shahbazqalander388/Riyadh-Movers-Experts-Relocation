@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#0A192F" />
+  <!-- Moving Truck Icon -->
+  <path d="M12 22C12 20.8954 12.8954 20 14 20H38C39.1046 20 40 20.8954 40 22V38H12V22Z" fill="#D97706" />
+  <path d="M40 27H47.2C48.0487 27 48.8437 27.4215 49.317 28.1189L52.517 32.8379C52.8273 33.2952 53 33.8378 53 34.3942V38C53 39.1046 52.1046 40 51 40H40V27Z" fill="#F59E0B" />
+  <circle cx="22" cy="42" r="5" fill="#FFFFFF" stroke="#0A192F" stroke-width="2.5" />
+  <circle cx="44" cy="42" r="5" fill="#FFFFFF" stroke="#0A192F" stroke-width="2.5" />
+  <!-- Wind shield / highlight -->
+  <path d="M42 29H46.5L49 33H42V29Z" fill="#0A192F" opacity="0.6" />
+  <!-- Speed lines -->
+  <path d="M16 26H28M16 31H24" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+</svg>

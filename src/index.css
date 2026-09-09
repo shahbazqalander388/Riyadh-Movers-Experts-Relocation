@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  html[lang="ar"] {
+    font-family: 'Cairo', 'Tajawal', system-ui, -apple-system, sans-serif;
+  }
+  
+  html[lang="en"] {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+}
+
+/* Custom transitions and scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A192F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D97706;
+}
+
+/* Ensure mobile floating CTA does not clash with footer */
+.pb-floating-cta {
+  padding-bottom: 5.5rem;
+}
+
+@media (min-width: 768px) {
+  .pb-floating-cta {
+    padding-bottom: 0;
+  }
+}
