@@ -417,34 +417,34 @@ export const translations = {
     },
     seo: {
       home: {
-        title: 'Riyadh Movers Experts | Professional Movers in Riyadh',
+        title: 'Movers and Packers in Riyadh | Riyadh Movers Experts',
         description:
-          'Riyadh Movers Experts provides professional moving, packing, furniture and relocation services in Riyadh. Contact us today for reliable moving services.',
+          'Riyadh Movers Experts delivers top-rated moving, packing, and furniture relocation across Riyadh. Contact our professional moving team today for a free quote!',
       },
       about: {
-        title: 'About Us | Riyadh Movers Experts — Reliable Moving Company in Riyadh',
+        title: 'About Us | Riyadh Movers Experts — Moving Company in Riyadh',
         description:
-          'Discover Riyadh Movers Experts, your dependable moving company in Riyadh. Professional moving crew, careful furniture packing, and seamless relocation across Saudi Arabia.',
+          'Learn about Riyadh Movers Experts, your trusted moving company in Riyadh. We provide professional moving crews, safe packing, and reliable relocation services.',
       },
       services: {
-        title: 'Moving Services in Riyadh | Riyadh Movers Experts — House, Office & Furniture Relocation',
+        title: 'Moving Services in Riyadh | Riyadh Movers Experts Relocation',
         description:
-          'Explore comprehensive moving services in Riyadh by Riyadh Movers Experts: house moving, office relocation, furniture assembly, and secure packing solutions.',
+          'Explore complete moving services in Riyadh by Riyadh Movers Experts. We specialize in house moves, office relocation, furniture assembly, and expert packing.',
       },
       gallery: {
-        title: 'Photo Gallery | Riyadh Movers Experts — Moving Trucks & Packing in Riyadh',
+        title: 'Gallery | Moving Trucks & Packing | Riyadh Movers Experts',
         description:
-          'View photos of our real moving operations across Riyadh. Enclosed moving trucks, high-grade furniture protection, and professional packing teams in action.',
+          'View real photos of Riyadh Movers Experts in action across Riyadh. See our modern enclosed moving trucks, expert packing techniques, and safe moving operations.',
       },
       faq: {
-        title: 'Frequently Asked Questions | Riyadh Movers Experts — Moving in Riyadh',
+        title: 'FAQs & Moving Advice in Riyadh | Riyadh Movers Experts',
         description:
-          'Find answers to common questions about moving in Riyadh, furniture disassembly, packing materials, pricing estimates, and scheduling with Riyadh Movers Experts.',
+          'Find quick answers to common questions about moving in Riyadh, moving costs, packing supplies, furniture assembly, and truck booking with Riyadh Movers Experts.',
       },
       contact: {
-        title: 'Contact Us & Moving Quotes | Riyadh Movers Experts in Riyadh',
+        title: 'Contact Us & Get Moving Quotes | Riyadh Movers Experts',
         description:
-          'Contact Riyadh Movers Experts at +966 56 469 4614 for fast moving quotes in Riyadh. Available 24/7 for house, office, and furniture moving services.',
+          'Contact Riyadh Movers Experts at +966 56 469 4614 for instant moving quotes in Riyadh. Available 24/7 for residential, office, and local furniture relocations.',
       },
       notFound: {
         title: 'Page Not Found | Riyadh Movers Experts',
@@ -872,32 +872,32 @@ export const translations = {
       home: {
         title: 'خبراء نقل وتغليف الأثاث بالرياض | شركة نقل عفش بالرياض',
         description:
-          'شركة خبراء نقل وتغليف الأثاث بالرياض تقدم أفضل خدمات نقل العفش، فك وتركيب غرف النوم، ونقل المكاتب والفلل بأمان واحترافية. تواصل معنا اليوم.',
+          'شركة خبراء نقل وتغليف الأثاث بالرياض تقدم أفضل خدمات نقل العفش، فك وتركيب غرف النوم، ونقل المكاتب والفلل بأمان تام واحترافية عالية. تواصل معنا اليوم.',
       },
       about: {
-        title: 'من نحن | خبراء نقل وتغليف الأثاث بالرياض — شركة نقل عفش معتمدة',
+        title: 'من نحن | خبراء نقل وتغليف الأثاث بالرياض — شركة نقل معتمدة',
         description:
-          'تعرف على شركة خبراء نقل وتغليف الأثاث بالرياض. فريق محترف، عناية فائقة بفك وتركيب ونقل الأثاث، وأسطول شاحنات دينا مجهزة في جميع أحياء الرياض.',
+          'تعرف على شركة خبراء نقل وتغليف الأثاث بالرياض، الشركة الرائدة والمعتمدة في نقل العفش وتغليف الأثاث ونقل الشركات في كافة أحياء الرياض بأسطول دينا حديث.',
       },
       services: {
         title: 'خدمات نقل وتغليف الأثاث بالرياض | شركة نقل عفش وفك وتركيب',
         description:
-          'خدمات نقل أثاث متكاملة في الرياض: نقل منازل، نقل مكاتب وشركات، نقل وتفكيك غرف النوم والمطابخ، وتغليف آمن بأفضل الأسعار مع خبراء نقل وتغليف الأثاث.',
+          'استكشف خدمات نقل وتغليف الأثاث بالرياض من شركة خبراء النقل: نقل منازل، نقل مكاتب، فك وتركيب غرف النوم والمطابخ، وتغليف آمن بأفضل الأسعار على مدار الساعة.',
       },
       gallery: {
-        title: 'معرض الصور | خبراء نقل وتغليف الأثاث بالرياض — أسطول دينا نقل عفش',
+        title: 'معرض الصور | خبراء نقل وتغليف الأثاث بالرياض — أسطول دينا',
         description:
-          'استعرض صور حقيقية لعمليات نقل العفش بالرياض: شاحنات دينا مغلقة، تغليف الأثاث بالكرتون والبابلز، وفريق التحميل والتنزيل المتخصص.',
+          'شاهد صور حية لعمليات نقل وتغليف العفش في الرياض من خبراء نقل الأثاث: أسطول دينا مغلقة، خامات تغليف عالية الجودة، وفريق تحميل محترف لنقل آمن ومضمون.',
       },
       faq: {
-        title: 'الأسئلة الشائعة عن نقل العفش بالرياض | خبراء نقل وتغليف الأثاث',
+        title: 'أسئلة شائعة عن نقل العفش بالرياض | خبراء نقل وتغليف الأثاث',
         description:
-          'إجابات شاملة لجميع الأسئلة الشائعة حول نقل العفش بالرياض، تكلفة النقل، توفير الكراتين والتغليف، ومواعيد وصول دينا نقل الأثاث.',
+          'إجابات شاملة لجميع الأسئلة الشائعة حول نقل العفش بالرياض، تكلفة النقل، توفير كراتين التغليف، مواعيد وصول دينا النقل، وطرق حماية الأثاث الحساس والزجاج.',
       },
       contact: {
-        title: 'اتصل بنا واحجز دينا نقل عفش | خبراء نقل وتغليف الأثاث بالرياض',
+        title: 'اتصل بنا واحجز دينا نقل عفش | خبراء نقل الأثاث بالرياض',
         description:
-          'تواصل مع شركة خبراء نقل وتغليف الأثاث بالرياض على الرقم 0564694614 أو واتساب. خدمة 24 ساعة لنقل العفش والمنازل والمكاتب في كافة أحياء الرياض.',
+          'اتصل بشركة خبراء نقل وتغليف الأثاث بالرياض على الرقم 0564694614 أو عبر الواتساب للحصول على تسعيرة فورية لنقل العفش والمنازل والمكاتب في كافة أحياء الرياض.',
       },
       notFound: {
         title: 'الصفحة غير موجودة | خبراء نقل الأثاث بالرياض',

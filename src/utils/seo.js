@@ -1,6 +1,6 @@
 import { companyInfo } from '../data/companyInfo';
 
-const SITE_URL = 'https://riyadhmoverandexpert.com';
+const SITE_URL = 'https://www.riyadhmoversexperts.com';
 
 export function updateSEO({
   title,
@@ -163,15 +163,12 @@ export function updateSEO({
           closes: '23:59',
         },
       ],
-      areaServed: [
-        {
-          '@type': 'City',
-          name: 'Riyadh',
-        },
-        {
-          '@type': 'Country',
-          name: 'Saudi Arabia',
-        },
+      areaServed: 'Riyadh, Saudi Arabia',
+      serviceType: [
+        'House Moving',
+        'Furniture Dismantling',
+        'Packing',
+        'Office Relocation',
       ],
       sameAs: [
         companyInfo.social.facebook,
