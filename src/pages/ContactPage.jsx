@@ -77,11 +77,17 @@ export default function ContactPage() {
     ? `Hello Riyadh Movers, my name is ${formData.name}. I submitted a quote request for: ${formData.service}. Phone: ${formData.phone}. Notes: ${formData.message || 'N/A'}`
     : `Hello Riyadh Movers, I would like to request a moving quote.`;
 
+  const breadcrumbData = [
+    { name: isArabic ? 'الرئيسية' : 'Home', url: isArabic ? '/ar' : '/' },
+    { name: t.breadcrumbs.contact, url: isArabic ? '/ar/contact' : '/contact' },
+  ];
+
   return (
     <div className="py-8 sm:py-12">
       <SEOHead
         title={t.seo.contact.title}
         description={t.seo.contact.description}
+        breadcrumbs={breadcrumbData}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

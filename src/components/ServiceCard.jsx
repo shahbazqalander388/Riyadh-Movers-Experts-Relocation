@@ -1,6 +1,7 @@
 import { CheckCircle2, ArrowRight, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useLanguage } from '../hooks/useLanguage';
+import { serviceAlts } from '../data/images';
 import WhatsAppButton from './WhatsAppButton';
 
 export default function ServiceCard({
@@ -10,6 +11,7 @@ export default function ServiceCard({
 }) {
   const { isArabic, getLocalizedPath } = useLanguage();
   const ArrowIcon = isArabic ? ArrowLeft : ArrowRight;
+  const altText = serviceAlts[service.slug]?.[isArabic ? 'ar' : 'en'] || service.title;
 
   return (
     <div className="group bg-white rounded-2xl border border-slate-200/80 hover:border-brand-gold/40 shadow-card-soft hover:shadow-card-hover transition-all duration-300 flex flex-col overflow-hidden">
@@ -17,8 +19,9 @@ export default function ServiceCard({
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-slate-900 flex items-center justify-center p-1.5 sm:p-2">
         <img
           src={imageSrc}
-          alt={service.title}
+          alt={altText}
           loading="lazy"
+          decoding="async"
           className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 rounded-lg"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent opacity-40 group-hover:opacity-20 transition-opacity pointer-events-none" />
@@ -53,7 +56,7 @@ export default function ServiceCard({
         {/* Action Buttons */}
         <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between gap-3">
           <Link
-            to={getLocalizedPath('/services')}
+            to={`${getLocalizedPath('/services')}/${service.slug}`}
             className="inline-flex items-center gap-1 text-xs sm:text-sm font-bold text-brand-navy hover:text-brand-gold transition-colors"
           >
             <span>{isArabic ? 'المزيد من التفاصيل' : 'Learn More'}</span>

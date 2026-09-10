@@ -12,6 +12,7 @@ export default function NotFoundPage() {
       <SEOHead
         title={t.seo.notFound.title}
         description={t.seo.notFound.description}
+        noindex={true}
       />
 
       <div className="max-w-xl mx-auto px-4 sm:px-6">

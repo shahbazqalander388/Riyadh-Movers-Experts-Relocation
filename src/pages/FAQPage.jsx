@@ -32,12 +32,18 @@ export default function FAQPage() {
       item.a.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  const breadcrumbData = [
+    { name: isArabic ? 'الرئيسية' : 'Home', url: isArabic ? '/ar' : '/' },
+    { name: t.breadcrumbs.faq, url: isArabic ? '/ar/faq' : '/faq' },
+  ];
+
   return (
     <div className="py-8 sm:py-12">
       <SEOHead
         title={t.seo.faq.title}
         description={t.seo.faq.description}
         schema={faqSchema}
+        breadcrumbs={breadcrumbData}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -30,7 +30,11 @@ export default function Footer() {
             >
               <img
                 src="/images/logo.jpg"
-                alt="Riyadh Movers Experts"
+                alt={isArabic ? 'شعار شركة خبراء نقل وتغليف الأثاث بالرياض' : 'Riyadh Movers Experts - Moving Company in Riyadh Logo'}
+                width="44"
+                height="44"
+                loading="lazy"
+                decoding="async"
                 className="h-11 w-auto object-contain rounded-lg bg-white p-0.5 shadow-md"
               />
               <div>
@@ -123,7 +127,7 @@ export default function Footer() {
               {serviceLinks.map((service) => (
                 <li key={service.id}>
                   <Link
-                    to={getLocalizedPath('/services')}
+                    to={`${getLocalizedPath('/services')}/${service.slug}`}
                     className="hover:text-brand-gold transition-colors flex items-center justify-between group"
                   >
                     <span>{service.title}</span>

@@ -16,6 +16,7 @@ export default function App() {
         <Route index element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="services" element={<ServicesPage />} />
+        <Route path="services/:slug" element={<ServicesPage />} />
         <Route path="gallery" element={<GalleryPage />} />
         <Route path="faq" element={<FAQPage />} />
         <Route path="contact" element={<ContactPage />} />
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="ar" element={<HomePage />} />
         <Route path="ar/about" element={<AboutPage />} />
         <Route path="ar/services" element={<ServicesPage />} />
+        <Route path="ar/services/:slug" element={<ServicesPage />} />
         <Route path="ar/gallery" element={<GalleryPage />} />
         <Route path="ar/faq" element={<FAQPage />} />
         <Route path="ar/contact" element={<ContactPage />} />

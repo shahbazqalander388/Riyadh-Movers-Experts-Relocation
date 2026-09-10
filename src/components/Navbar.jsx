@@ -126,7 +126,9 @@ export default function Navbar() {
           >
             <img
               src="/images/logo.jpg"
-              alt="Riyadh Movers Experts"
+              alt={isArabic ? 'شعار شركة خبراء نقل وتغليف الأثاث بالرياض' : 'Riyadh Movers Experts - Professional Moving Company in Riyadh'}
+              width="56"
+              height="56"
               className="h-12 sm:h-14 w-auto object-contain rounded-lg border border-slate-200/80 shadow-sm group-hover:scale-105 transition-transform bg-white"
             />
             <div className="flex flex-col">

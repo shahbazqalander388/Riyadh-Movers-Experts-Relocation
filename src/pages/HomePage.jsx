@@ -112,12 +112,26 @@ export default function HomePage() {
     }
   };
 
+  // FAQ Schema for the 8 visible FAQs on Home Page
+  const homeFaqSchema = {
+    '@type': 'FAQPage',
+    mainEntity: t.faq.items.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a,
+      },
+    })),
+  };
+
   return (
     <div>
       <SEOHead
         title={t.seo.home.title}
         description={t.seo.home.description}
         image={images.hero}
+        schema={homeFaqSchema}
       />
 
       {/* 1. HERO SECTION */}
@@ -182,9 +196,11 @@ export default function HomePage() {
                 <div className="relative rounded-2xl overflow-hidden bg-slate-900 shadow-2xl border border-white/10 aspect-[16/10] sm:aspect-[4/3] flex items-center justify-center p-1 sm:p-2">
                   <img
                     src={images.hero}
-                    alt={t.hero.title}
+                    alt={isArabic ? 'شركة نقل عفش بالرياض - دينا نقل أثاث تابعة لخبراء الرياض لنقل العفش على طريق الملك فهد' : 'Professional Movers in Riyadh - Riyadh Movers Experts truck on King Fahd Road with Riyadh skyline'}
                     className="w-full h-full object-contain sm:object-cover rounded-xl"
                     loading="eager"
+                    fetchPriority="high"
+                    decoding="async"
                   />
 
                   {/* Floating Trust Pill */}

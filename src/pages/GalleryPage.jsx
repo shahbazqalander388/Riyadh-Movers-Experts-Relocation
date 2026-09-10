@@ -45,11 +45,17 @@ export default function GalleryPage() {
     );
   };
 
+  const breadcrumbData = [
+    { name: isArabic ? 'الرئيسية' : 'Home', url: isArabic ? '/ar' : '/' },
+    { name: t.breadcrumbs.gallery, url: isArabic ? '/ar/gallery' : '/gallery' },
+  ];
+
   return (
     <div className="py-8 sm:py-12">
       <SEOHead
         title={t.seo.gallery.title}
         description={t.seo.gallery.description}
+        breadcrumbs={breadcrumbData}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -110,6 +116,7 @@ export default function GalleryPage() {
                   src={item.src}
                   alt={title}
                   loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 rounded-xl"
                 />
 

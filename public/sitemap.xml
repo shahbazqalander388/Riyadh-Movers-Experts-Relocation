@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- Home Page -->
   <url>
     <loc>https://riyadhmoverandexpert.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/" />
@@ -12,6 +14,8 @@
   </url>
   <url>
     <loc>https://riyadhmoverandexpert.com/ar</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/" />
@@ -22,47 +26,197 @@
   <!-- About Page -->
   <url>
     <loc>https://riyadhmoverandexpert.com/about</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/about" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/about" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/about" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://riyadhmoverandexpert.com/ar/about</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/about" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/about" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/about" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Services Page -->
+  <!-- Services Overview Page -->
   <url>
     <loc>https://riyadhmoverandexpert.com/services</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services" />
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://riyadhmoverandexpert.com/ar/services</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services" />
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <!-- House Moving Service Page -->
+  <url>
+    <loc>https://riyadhmoverandexpert.com/services/house-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/house-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/house-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/house-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/house-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/house-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://riyadhmoverandexpert.com/ar/services/house-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/house-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/house-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/house-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/house-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/house-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Furniture Moving Service Page -->
+  <url>
+    <loc>https://riyadhmoverandexpert.com/services/furniture-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/furniture-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/furniture-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/furniture-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/furniture-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/furniture-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://riyadhmoverandexpert.com/ar/services/furniture-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/furniture-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/furniture-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/furniture-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/furniture-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/furniture-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Office Moving Service Page -->
+  <url>
+    <loc>https://riyadhmoverandexpert.com/services/office-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/office-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/office-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/office-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/office-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/office-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://riyadhmoverandexpert.com/ar/services/office-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/office-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/office-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/office-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/office-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/office-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Packing & Moving Service Page -->
+  <url>
+    <loc>https://riyadhmoverandexpert.com/services/packing-and-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/packing-and-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/packing-and-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/packing-and-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/packing-and-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/packing-and-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://riyadhmoverandexpert.com/ar/services/packing-and-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/packing-and-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/packing-and-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/packing-and-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/packing-and-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/packing-and-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Villa Moving Service Page -->
+  <url>
+    <loc>https://riyadhmoverandexpert.com/services/villa-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/villa-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/villa-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/villa-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/villa-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/villa-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://riyadhmoverandexpert.com/ar/services/villa-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/villa-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/villa-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/villa-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/villa-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/villa-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Apartment Moving Service Page -->
+  <url>
+    <loc>https://riyadhmoverandexpert.com/services/apartment-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/apartment-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/apartment-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/apartment-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/apartment-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/apartment-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://riyadhmoverandexpert.com/ar/services/apartment-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/services/apartment-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/services/apartment-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/services/apartment-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/services/apartment-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/services/apartment-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- Gallery Page -->
   <url>
     <loc>https://riyadhmoverandexpert.com/gallery</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/gallery" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/gallery" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/gallery" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/gallery" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/gallery" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://riyadhmoverandexpert.com/ar/gallery</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/gallery" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/gallery" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/gallery" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/gallery" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/gallery" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -70,15 +224,21 @@
   <!-- FAQ Page -->
   <url>
     <loc>https://riyadhmoverandexpert.com/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/faq" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/faq" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/faq" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/faq" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://riyadhmoverandexpert.com/ar/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/faq" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/faq" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/faq" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/faq" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -86,15 +246,21 @@
   <!-- Contact Page -->
   <url>
     <loc>https://riyadhmoverandexpert.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/contact" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/contact" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/contact" />
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://riyadhmoverandexpert.com/ar/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://riyadhmoverandexpert.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://riyadhmoverandexpert.com/ar/contact" />
     <xhtml:link rel="alternate" hreflang="en" href="https://riyadhmoverandexpert.com/contact" />
     <xhtml:link rel="alternate" hreflang="ar" href="https://riyadhmoverandexpert.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://riyadhmoverandexpert.com/contact" />
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

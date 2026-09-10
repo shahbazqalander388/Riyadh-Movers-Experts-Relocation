@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { useLanguage } from '../hooks/useLanguage';
 import { updateSEO } from '../utils/seo';
 
-export default function SEOHead({ title, description, image, schema }) {
+export default function SEOHead({ title, description, image, schema, breadcrumbs, noindex = false }) {
   const { lang } = useLanguage();
   const location = useLocation();
 
@@ -15,8 +15,10 @@ export default function SEOHead({ title, description, image, schema }) {
       image,
       lang,
       schema,
+      breadcrumbs,
+      noindex,
     });
-  }, [title, description, location.pathname, image, lang, schema]);
+  }, [title, description, location.pathname, image, lang, schema, breadcrumbs, noindex]);
 
   return null;
 }

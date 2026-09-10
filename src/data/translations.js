@@ -17,7 +17,7 @@ export const translations = {
     },
     hero: {
       badge: 'Trusted Relocation in Saudi Arabia',
-      title: 'Professional Movers & Packers in Riyadh',
+      title: 'Professional Movers in Riyadh',
       description:
         'Reliable moving, packing and relocation services in Riyadh. We help make your move safe, smooth and stress-free with dedicated teams and specialized moving trucks.',
       quoteCta: 'Get a Free Quote',
@@ -69,7 +69,7 @@ export const translations = {
         {
           id: 'house-moving',
           slug: 'house-moving',
-          title: 'House Moving',
+          title: 'House Moving Services in Riyadh',
           shortDesc: 'Professional support for residential relocation across all neighborhoods in Riyadh.',
           fullDesc:
             'Relocating your home is a major life transition. Our house moving service covers every aspect from meticulous furniture wrapping to safe transport and setup in your new home. We handle all furniture, appliances, and delicate household goods with trained care.',
@@ -83,7 +83,7 @@ export const translations = {
         {
           id: 'villa-moving',
           slug: 'villa-moving',
-          title: 'Villa Moving',
+          title: 'Villa Moving Services in Riyadh',
           shortDesc: 'Careful handling of household belongings and furniture for spacious villas.',
           fullDesc:
             'Moving large villas demands high logistics capacity, experienced teams, and specialized handling for heavy luxury furniture, chandeliers, and outdoor amenities. We provide coordinated multi-team moving tailored for spacious residences.',
@@ -97,7 +97,7 @@ export const translations = {
         {
           id: 'apartment-moving',
           slug: 'apartment-moving',
-          title: 'Apartment Moving',
+          title: 'Apartment Movers in Riyadh',
           shortDesc: 'Efficient apartment relocation support designed for quick, seamless moves.',
           fullDesc:
             'Whether moving into a high-rise or a multi-story building, our team navigates staircases, service elevators, and narrow hallways safely. We minimize disruption to your neighbors and complete your move on schedule.',
@@ -111,7 +111,7 @@ export const translations = {
         {
           id: 'office-moving',
           slug: 'office-moving',
-          title: 'Office Moving',
+          title: 'Office Movers in Riyadh',
           shortDesc: 'Organized office relocation services minimizing business downtime.',
           fullDesc:
             'We understand that business continuity is essential. Our commercial relocation services handle office desks, conference tables, computer hardware, filing systems, and sensitive documents with strict organizational oversight.',
@@ -125,7 +125,7 @@ export const translations = {
         {
           id: 'furniture-moving',
           slug: 'furniture-moving',
-          title: 'Furniture Moving',
+          title: 'Furniture Movers in Riyadh',
           shortDesc: 'Safe transportation, expert disassembly, and precise assembly of furniture.',
           fullDesc:
             'From bedroom sets and wardrobes to custom dining tables and sofas, our skilled carpenters disassemble, securely wrap, transport, and reassemble your furniture safely in its exact position.',
@@ -139,7 +139,7 @@ export const translations = {
         {
           id: 'packing-unpacking',
           slug: 'packing-unpacking',
-          title: 'Packing & Unpacking',
+          title: 'Packing and Moving Services in Riyadh',
           shortDesc: 'Careful packing and unpacking assistance with premium protective materials.',
           fullDesc:
             'Proper packing is the backbone of a successful move. We use heavy-duty cardboard cartons, bubble wrap, stretch film, corrugated rolls, and packing tape to shield glassware, electronics, and kitchenware from shock and vibration.',
@@ -153,7 +153,7 @@ export const translations = {
         {
           id: 'loading-unloading',
           slug: 'loading-unloading',
-          title: 'Loading & Unloading',
+          title: 'Loading and Unloading Services in Riyadh',
           shortDesc: 'Professional loading and unloading support with proper lifting gear.',
           fullDesc:
             'Improper lifting can cause personal injury and damage to goods. Our strong, trained crew uses dollies, furniture sliders, and secure truck tie-down straps to load and unload heavy loads safely and systematically.',
@@ -167,7 +167,7 @@ export const translations = {
         {
           id: 'local-moving',
           slug: 'local-moving',
-          title: 'Local Moving',
+          title: 'Local Moving Company in Riyadh',
           shortDesc: 'Moving support within Riyadh and surrounding districts.',
           fullDesc:
             'Serving North, East, West, South, and Central Riyadh. Our drivers and logistics team know the routes, traffic regulations, and district layouts, ensuring timely arrivals and efficient transit.',
@@ -417,38 +417,38 @@ export const translations = {
     },
     seo: {
       home: {
-        title: 'Riyadh Movers & Experts | Professional Moving & Packing in Riyadh',
+        title: 'Riyadh Movers Experts | Professional Movers in Riyadh',
         description:
-          'Reliable moving, packing and relocation services in Riyadh, Saudi Arabia. Safe furniture transport, villa moving, office relocation, and affordable packing solutions.',
+          'Riyadh Movers Experts provides professional moving, packing, furniture and relocation services in Riyadh. Contact us today for reliable moving services.',
       },
       about: {
-        title: 'About Us | Riyadh Movers & Experts — Trusted Moving Company in Riyadh',
+        title: 'About Us | Riyadh Movers Experts — Reliable Moving Company in Riyadh',
         description:
-          'Learn about Riyadh Movers & Experts. Our philosophy, customer-first service, and unwavering commitment to safe, careful furniture handling across Riyadh.',
+          'Discover Riyadh Movers Experts, your dependable moving company in Riyadh. Professional moving crew, careful furniture packing, and seamless relocation across Saudi Arabia.',
       },
       services: {
-        title: 'Moving Services in Riyadh | Riyadh Movers & Experts',
+        title: 'Moving Services in Riyadh | Riyadh Movers Experts — House, Office & Furniture Relocation',
         description:
-          'Comprehensive moving services: House moving, villa moving, apartment moving, office relocation, furniture disassembly/assembly, and packing in Riyadh.',
+          'Explore comprehensive moving services in Riyadh by Riyadh Movers Experts: house moving, office relocation, furniture assembly, and secure packing solutions.',
       },
       gallery: {
-        title: 'Photo Gallery | Riyadh Movers & Experts',
+        title: 'Photo Gallery | Riyadh Movers Experts — Moving Trucks & Packing in Riyadh',
         description:
-          'Explore pictures of our moving team, high-grade packing materials, enclosed trucks, and careful relocation projects throughout Riyadh.',
+          'View photos of our real moving operations across Riyadh. Enclosed moving trucks, high-grade furniture protection, and professional packing teams in action.',
       },
       faq: {
-        title: 'FAQ — Common Questions | Riyadh Movers & Experts',
+        title: 'Frequently Asked Questions | Riyadh Movers Experts — Moving in Riyadh',
         description:
-          'Frequently asked questions about moving, packing, furniture assembly, villa relocation, pricing, and scheduling in Riyadh, Saudi Arabia.',
+          'Find answers to common questions about moving in Riyadh, furniture disassembly, packing materials, pricing estimates, and scheduling with Riyadh Movers Experts.',
       },
       contact: {
-        title: 'Contact Us & Free Quote | Riyadh Movers & Experts',
+        title: 'Contact Us & Moving Quotes | Riyadh Movers Experts in Riyadh',
         description:
-          'Contact Riyadh Movers & Experts at +966 56 469 4614. Request a free quote for residential or commercial moving and packing in Riyadh.',
+          'Contact Riyadh Movers Experts at +966 56 469 4614 for fast moving quotes in Riyadh. Available 24/7 for house, office, and furniture moving services.',
       },
       notFound: {
-        title: 'Page Not Found | Riyadh Movers & Experts',
-        description: 'The requested page was not found. Browse our moving and packing services in Riyadh.',
+        title: 'Page Not Found | Riyadh Movers Experts',
+        description: 'The requested page was not found. Browse our professional moving and packing services in Riyadh.',
       },
     },
   },
@@ -469,8 +469,8 @@ export const translations = {
       langToggle: 'English',
     },
     hero: {
-      badge: 'الخيار الموثوق لنقل العفش في المملكة',
-      title: 'خبراء نقل وتغليف الأثاث بالرياض',
+      badge: 'خدمات نقل العفش والتغليف بالرياض',
+      title: 'شركة نقل عفش بالرياض | خبراء نقل وتغليف الأثاث',
       description:
         'خدمات موثوقة لنقل وتغليف وفك وتركيب الأثاث في الرياض. نساعدك في جعل انتقالك تجربة آمنة وسلسة وخالية من المتاعب مع طواقم متخصصة وشاحنات مجهزة.',
       quoteCta: 'طلب عرض سعر',
@@ -522,7 +522,7 @@ export const translations = {
         {
           id: 'house-moving',
           slug: 'house-moving',
-          title: 'نقل المنازل',
+          title: 'خدمات نقل المنازل بالرياض',
           shortDesc: 'دعم احترافي لنقل المنازل والشقق السكنية في جميع أحياء الرياض.',
           fullDesc:
             'الانتقال إلى منزل جديد خطوة مهمة، ونحن هنا لنجعلها سهلة. تشمل خدمة نقل المنازل تغليف كل قطعة أثاث، وحمايتها أثناء النقل في شاحنات مغلقة، وإعادة تركيبها وترتيبها في منزلك الجديد.',
@@ -536,7 +536,7 @@ export const translations = {
         {
           id: 'villa-moving',
           slug: 'villa-moving',
-          title: 'نقل الفلل',
+          title: 'خدمات نقل الفلل والقصور بالرياض',
           shortDesc: 'عناية فائقة بمحتويات الفلل والقصور والأثاث الفاخر والقطع الكبيرة.',
           fullDesc:
             'تتطلب الفلل الكبيرة طاقة لوجستية خاصة وفِرقاً متعددة للتعامل مع الأثاث الفاخر، والنجف، والمفروشات الكبيرة، ومحتويات الحدائق. نوفر حلولاً منظمة تضمن نقل كل مقتنيات الفيلا بأمان.',
@@ -550,7 +550,7 @@ export const translations = {
         {
           id: 'apartment-moving',
           slug: 'apartment-moving',
-          title: 'نقل الشقق',
+          title: 'نقل أثاث الشقق بالرياض',
           shortDesc: 'نقل منظم وسريع لأثاث الشقق السكنية يراعي المصاعد والممرات.',
           fullDesc:
             'سواء كنت تسكن في برج سكني أو عمارة، فإن فريقنا مدرب على التعامل مع الممرات الضيقة، واستخدام المصاعد ومنازل الأدراج دون إحداث إزعاج للجيران أو ضرر للمبنى.',
@@ -564,7 +564,7 @@ export const translations = {
         {
           id: 'office-moving',
           slug: 'office-moving',
-          title: 'نقل المكاتب والشركات',
+          title: 'خدمات نقل المكاتب والشركات بالرياض',
           shortDesc: 'نقل تجاري منظم ومحكم لتقليل توقف أعمال شركتك إلى أدنى حد.',
           fullDesc:
             'ندرك أهمية استمرارية العمل لشركتك. تشمل خدماتنا نقل المكاتب التنفيذية، وقاعات الاجتماعات، وأجهزة الحاسب، وخوادم الشبكات، والأرشيف والمستندات بكل سرية وتنظيم.',
@@ -578,7 +578,7 @@ export const translations = {
         {
           id: 'furniture-moving',
           slug: 'furniture-moving',
-          title: 'نقل وتفكيك وتركيب الأثاث',
+          title: 'نقل وتفكيك وتركيب الأثاث بالرياض',
           shortDesc: 'نقل آمن مع فك وتركيب احترافي لجميع غرف النوم والمطابخ والمكاتب.',
           fullDesc:
             'يتولى نجارون فنيون محترفون فك غرف النوم، والخزائن، وطاولات الطعام، والدواليب، وتغليفها بطبقات واقية، ثم نقلها وتركيبها بدقة متناهية وضبط مفصلاتها في المكان الجديد.',
@@ -592,7 +592,7 @@ export const translations = {
         {
           id: 'packing-unpacking',
           slug: 'packing-unpacking',
-          title: 'تغليف وفك الأثاث',
+          title: 'خدمات التغليف ونقل العفش بالرياض',
           shortDesc: 'خدمات تغليف احترافية باستخدام البابلز والكرتون المقوى والنايلون الاسترتش.',
           fullDesc:
             'التغليف الصحيح هو الدرع الأساسي لسلامة العفش. نستخدم الكرتون المقوى، وفقاعات الهواء (البابلز)، والنايلون الاسترتش، والشرائط اللاصقة المقواة لحماية الزجاج والتحف والإلكترونيات.',
@@ -606,7 +606,7 @@ export const translations = {
         {
           id: 'loading-unloading',
           slug: 'loading-unloading',
-          title: 'التحميل والتنزيل الاحترافي',
+          title: 'خدمات تحميل وتنزيل العفش بالرياض',
           shortDesc: 'تحميل وتنزيل آمن باستخدام معدات رفع وعربات مخصصة لحماية الأثاث.',
           fullDesc:
             'الرفع الخاطئ قد يتسبب في أضرار للمنقولات والجدران. يعتمد فريقنا على تروليات وعربات هيدروليكية وأحزمة حمل لنقل القطع الثقيلة بسلاسة وأمان تام.',
@@ -620,7 +620,7 @@ export const translations = {
         {
           id: 'local-moving',
           slug: 'local-moving',
-          title: 'النقل المحلي بأحياء الرياض',
+          title: 'دينا نقل عفش داخل أحياء الرياض',
           shortDesc: 'تغطية شاملة وسريعة لجميع أحياء شمال وشرق وغرب وجنوب ووسط الرياض.',
           fullDesc:
             'نخدم جميع أحياء الرياض بأسطول من الشاحنات وسائقين على دراية تامة بشوارع العاصمة ومساراتها السريعة وأوقات الذروة، مما يضمن وصول أثاثك في الوقت المحدد بدقة.',
@@ -870,34 +870,34 @@ export const translations = {
     },
     seo: {
       home: {
-        title: 'خبراء نقل وتغليف الأثاث بالرياض | دينا نقل عفش وفك وتركيب',
+        title: 'خبراء نقل وتغليف الأثاث بالرياض | شركة نقل عفش بالرياض',
         description:
-          'أفضل خدمات نقل وتغليف الأثاث بالرياض. فك وتركيب غرف النوم والمطابخ، نقل الفلل والشقق والمكاتب بشاحنات مغلقة وبأفضل الأسعار.',
+          'شركة خبراء نقل وتغليف الأثاث بالرياض تقدم أفضل خدمات نقل العفش، فك وتركيب غرف النوم، ونقل المكاتب والفلل بأمان واحترافية. تواصل معنا اليوم.',
       },
       about: {
-        title: 'من نحن | خبراء نقل وتغليف الأثاث بالرياض',
+        title: 'من نحن | خبراء نقل وتغليف الأثاث بالرياض — شركة نقل عفش معتمدة',
         description:
-          'تعرف على خبراء نقل وتغليف الأثاث بالرياض. نهجنا الاحترافي، والتزامنا بسلامة وحماية مقتنياتك عبر كافة أحياء الرياض.',
+          'تعرف على شركة خبراء نقل وتغليف الأثاث بالرياض. فريق محترف، عناية فائقة بفك وتركيب ونقل الأثاث، وأسطول شاحنات دينا مجهزة في جميع أحياء الرياض.',
       },
       services: {
-        title: 'خدمات نقل وتغليف الأثاث بالرياض | كافة الخدمات',
+        title: 'خدمات نقل وتغليف الأثاث بالرياض | شركة نقل عفش وفك وتركيب',
         description:
-          'خدمات متكاملة: نقل منازل، فلل، شقق، مكاتب وشركات، فك وتركيب الأثاث، تغليف احترافي بالبابلز، والتحميل الآمن في الرياض.',
+          'خدمات نقل أثاث متكاملة في الرياض: نقل منازل، نقل مكاتب وشركات، نقل وتفكيك غرف النوم والمطابخ، وتغليف آمن بأفضل الأسعار مع خبراء نقل وتغليف الأثاث.',
       },
       gallery: {
-        title: 'معرض الصور | خبراء نقل وتغليف الأثاث بالرياض',
+        title: 'معرض الصور | خبراء نقل وتغليف الأثاث بالرياض — أسطول دينا نقل عفش',
         description:
-          'شاهد صور واقعية لأعمال نقل العفش، والتغليف بالكرتون والبابلز، والشاحنات المجهزة، وترتيب الأثاث في الرياض.',
+          'استعرض صور حقيقية لعمليات نقل العفش بالرياض: شاحنات دينا مغلقة، تغليف الأثاث بالكرتون والبابلز، وفريق التحميل والتنزيل المتخصص.',
       },
       faq: {
-        title: 'الأسئلة الشائعة حول نقل الأثاث بالرياض',
+        title: 'الأسئلة الشائعة عن نقل العفش بالرياض | خبراء نقل وتغليف الأثاث',
         description:
-          'إجابات شاملة عن خدمات نقل وفك وتركيب وتغليف الأثاث في الرياض، الأسعار، وطرق حجز موعد النقل.',
+          'إجابات شاملة لجميع الأسئلة الشائعة حول نقل العفش بالرياض، تكلفة النقل، توفير الكراتين والتغليف، ومواعيد وصول دينا نقل الأثاث.',
       },
       contact: {
-        title: 'اتصل بنا واحصل على عرض سعر مجاني | خبراء الرياض',
+        title: 'اتصل بنا واحجز دينا نقل عفش | خبراء نقل وتغليف الأثاث بالرياض',
         description:
-          'تواصل مع خبراء نقل وتغليف الأثاث بالرياض على الرقم +966 56 469 4614 أو عبر الواتساب للحصول على تسعيرة فورية.',
+          'تواصل مع شركة خبراء نقل وتغليف الأثاث بالرياض على الرقم 0564694614 أو واتساب. خدمة 24 ساعة لنقل العفش والمنازل والمكاتب في كافة أحياء الرياض.',
       },
       notFound: {
         title: 'الصفحة غير موجودة | خبراء نقل الأثاث بالرياض',

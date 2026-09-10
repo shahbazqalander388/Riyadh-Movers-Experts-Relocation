@@ -24,12 +24,18 @@ export default function AboutPage() {
 
   const valueIcons = [Clock, Wrench, Truck, HeartHandshake];
 
+  const breadcrumbData = [
+    { name: isArabic ? 'الرئيسية' : 'Home', url: isArabic ? '/ar' : '/' },
+    { name: t.breadcrumbs.about, url: isArabic ? '/ar/about' : '/about' },
+  ];
+
   return (
     <div className="py-8 sm:py-12">
       <SEOHead
         title={t.seo.about.title}
         description={t.seo.about.description}
         image={images.about}
+        breadcrumbs={breadcrumbData}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -59,9 +65,10 @@ export default function AboutPage() {
           <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-card-soft bg-slate-900 aspect-[16/10] sm:aspect-[4/3] flex items-center justify-center p-2">
             <img
               src={images.about}
-              alt={t.about.title}
+              alt={isArabic ? 'أسطول شاحنات دينا مغلقة لنقل وتغليف الأثاث بالرياض - خبراء نقل وتغليف الأثاث' : 'Riyadh Movers Experts - reliable moving company with fleet of enclosed trucks in Riyadh'}
               className="w-full h-full object-contain rounded-xl"
               loading="lazy"
+              decoding="async"
             />
           </div>
 
