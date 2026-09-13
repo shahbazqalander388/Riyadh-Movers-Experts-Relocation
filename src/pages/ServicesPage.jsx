@@ -103,6 +103,7 @@ export default function ServicesPage() {
         <SEOHead
           title={pageTitle}
           description={pageDescription}
+          keywords={relatedKeywords ? relatedKeywords.join(', ') : undefined}
           image={serviceImg}
           schema={singleServiceSchema}
           breadcrumbs={breadcrumbsData}
@@ -300,6 +301,11 @@ export default function ServicesPage() {
       <SEOHead
         title={t.seo.services.title}
         description={t.seo.services.description}
+        keywords={
+          isArabic
+            ? 'خدمات نقل اثاث بالرياض, دينا نقل عفش بالرياض, فك وتركيب غرف نوم, تغليف بابلز, نقل مكاتب بالرياض, نقل فلل بالرياض'
+            : 'Moving Services Riyadh, House Shifting Riyadh, Furniture Movers Riyadh, Packing and Moving Riyadh, Office Relocation Riyadh'
+        }
         image={images.servicesBanner}
         schema={serviceSchema}
         breadcrumbs={breadcrumbData}

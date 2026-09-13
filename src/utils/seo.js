@@ -5,6 +5,7 @@ const SITE_URL = 'https://www.riyadhmoversexperts.com';
 export function updateSEO({
   title,
   description,
+  keywords,
   canonicalPath = '',
   image = '/images/real-9.jpg',
   lang = 'en',
@@ -29,6 +30,19 @@ export function updateSEO({
   // Basic Meta
   setMeta('description', 'name', description);
   setMeta('robots', 'name', noindex ? 'noindex, nofollow' : 'index, follow');
+
+  // Local & Keywords Meta
+  const defaultKeywords =
+    lang === 'ar'
+      ? 'نقل عفش بالرياض, شركة نقل اثاث بالرياض, دينا نقل عفش بالرياض, فك وتركيب غرف نوم بالرياض, دينا نقل عفش, اسعار نقل العفش بالرياض, تغليف اثاث بالرياض, نجار فك وتركيب بالرياض, نقل عفش شمال الرياض'
+      : 'Movers and Packers in Riyadh, House Shifting Services Riyadh, Furniture Relocation Riyadh, Moving Company in Riyadh, Cheap Movers Riyadh, Villa Relocation Riyadh, Office Movers Riyadh, Furniture Dismantling Assembly Riyadh';
+  setMeta('keywords', 'name', keywords || defaultKeywords);
+
+  // Geo Tags for Riyadh Local SEO
+  setMeta('geo.region', 'name', 'SA-01');
+  setMeta('geo.placename', 'name', 'Riyadh');
+  setMeta('geo.position', 'name', '24.748056;46.776631');
+  setMeta('ICBM', 'name', '24.748056, 46.776631');
 
   // Compute Canonical & Alternate URLs
   const cleanPath = canonicalPath.replace(/\/$/, '') || '/';
@@ -115,7 +129,7 @@ export function updateSEO({
       logo: `${SITE_URL}/images/logo.jpg`,
       contactPoint: {
         '@type': 'ContactPoint',
-        telephone: companyInfo.phone,
+        telephone: companyInfo.phoneRaw || '+966564694614',
         contactType: 'customer service',
         areaServed: 'SA',
         availableLanguage: ['Arabic', 'English'],
@@ -129,7 +143,7 @@ export function updateSEO({
       url: currentCanonicalUrl,
       logo: `${SITE_URL}/images/logo.jpg`,
       image: fullImage,
-      telephone: companyInfo.phone,
+      telephone: companyInfo.phoneRaw || '+966564694614',
       email: companyInfo.email,
       priceRange: '$$',
       currenciesAccepted: 'SAR',
@@ -147,6 +161,7 @@ export function updateSEO({
         longitude: companyInfo.location.longitude,
       },
       hasMap: companyInfo.location.mapsUrl,
+      openingHours: 'Mo-Su 00:00-23:59',
       openingHoursSpecification: [
         {
           '@type': 'OpeningHoursSpecification',
@@ -163,16 +178,36 @@ export function updateSEO({
           closes: '23:59',
         },
       ],
-      areaServed: 'Riyadh, Saudi Arabia',
+      areaServed: [
+        { '@type': 'City', name: 'Riyadh', sameAs: 'https://en.wikipedia.org/wiki/Riyadh' },
+        { '@type': 'AdministrativeArea', name: 'Al Malqa (حي الملقا)' },
+        { '@type': 'AdministrativeArea', name: 'Al Narjis (حي النرجس)' },
+        { '@type': 'AdministrativeArea', name: 'Al Yasmin (حي الياسمين)' },
+        { '@type': 'AdministrativeArea', name: 'Al Olaya (حي العليا)' },
+        { '@type': 'AdministrativeArea', name: 'Al Sahafa (حي الصحافة)' },
+        { '@type': 'AdministrativeArea', name: 'Al Rawdah (حي الروضة)' },
+        { '@type': 'AdministrativeArea', name: 'Al Nakheel (حي النخيل)' },
+        { '@type': 'AdministrativeArea', name: 'Hittin (حي حطين)' },
+        { '@type': 'AdministrativeArea', name: 'Al Aqiq (حي العقيق)' },
+        { '@type': 'AdministrativeArea', name: 'Al Hamra (حي الحمراء)' },
+      ],
       serviceType: [
-        'House Moving',
-        'Furniture Dismantling',
-        'Packing',
-        'Office Relocation',
+        'House Moving Services',
+        'Residential Relocation',
+        'Office Moving Services',
+        'Furniture Dismantling and Assembly',
+        'Multi-layer Bubble Wrap Packing',
+        'Villa Moving Services',
+        'Apartment Moving',
+        'Dina Moving Trucks',
+        'نقل عفش بالرياض',
+        'شركة نقل اثاث بالرياض',
+        'دينا نقل عفش بالرياض',
+        'فك وتركيب غرف نوم بالرياض',
+        'تغليف اثاث بالبابلز',
       ],
       sameAs: [
         companyInfo.social.facebook,
-        'https://www.facebook.com/share/1TV6ov4/',
         companyInfo.social.tiktok,
         companyInfo.social.instagram,
         companyInfo.location.mapsUrl,

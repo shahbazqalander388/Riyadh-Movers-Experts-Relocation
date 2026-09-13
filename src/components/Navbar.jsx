@@ -41,6 +41,7 @@ export default function Navbar() {
     { to: getLocalizedPath('/'), label: t.nav.home, sectionId: 'home' },
     { to: getLocalizedPath('/about'), label: t.nav.about, sectionId: 'about' },
     { to: getLocalizedPath('/services'), label: t.nav.services, sectionId: 'services' },
+    { to: getLocalizedPath('/districts'), label: t.nav.districts, sectionId: 'districts' },
     { to: getLocalizedPath('/gallery'), label: t.nav.gallery, sectionId: 'gallery' },
     { to: getLocalizedPath('/faq'), label: t.nav.faq, sectionId: 'faq' },
     { to: getLocalizedPath('/contact'), label: t.nav.contact, sectionId: 'contact' },

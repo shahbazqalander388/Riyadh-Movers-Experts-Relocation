@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
 
+# Direct indexing for major search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Canonical Host & XML Sitemap
+Host: https://www.riyadhmoversexperts.com
 Sitemap: https://www.riyadhmoversexperts.com/sitemap.xml

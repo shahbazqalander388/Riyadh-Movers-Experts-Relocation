@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- Home Page -->
+  <!-- 1. Home Page -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/" />
@@ -23,7 +23,7 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- About Page -->
+  <!-- 2. About Page -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/about</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/about" />
@@ -45,7 +45,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Services Overview Page -->
+  <!-- 3. Services Index Page -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/services</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/services" />
@@ -67,7 +67,8 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- House Moving Service Page -->
+  <!-- 4. Individual Service Pages (8 Services) -->
+  <!-- House Moving -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/services/house-moving</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/services/house-moving" />
@@ -89,7 +90,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Furniture Moving Service Page -->
+  <!-- Furniture Moving -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/services/furniture-moving</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/services/furniture-moving" />
@@ -111,7 +112,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Office Moving Service Page -->
+  <!-- Office Moving -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/services/office-moving</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/services/office-moving" />
@@ -133,7 +134,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Packing & Moving Service Page -->
+  <!-- Packing and Moving -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/services/packing-and-moving</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/services/packing-and-moving" />
@@ -155,7 +156,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Villa Moving Service Page -->
+  <!-- Villa Moving -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/services/villa-moving</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/services/villa-moving" />
@@ -177,7 +178,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Apartment Moving Service Page -->
+  <!-- Apartment Moving -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/services/apartment-moving</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/services/apartment-moving" />
@@ -199,7 +200,294 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Gallery Page -->
+  <!-- Loading and Unloading -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/services/loading-unloading</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/services/loading-unloading" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/services/loading-unloading" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/services/loading-unloading" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/services/loading-unloading" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/services/loading-unloading" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/services/loading-unloading</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/services/loading-unloading" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/services/loading-unloading" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/services/loading-unloading" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/services/loading-unloading" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/services/loading-unloading" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Local Moving -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/services/local-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/services/local-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/services/local-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/services/local-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/services/local-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/services/local-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/services/local-moving</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/services/local-moving" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/services/local-moving" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/services/local-moving" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/services/local-moving" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/services/local-moving" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 5. Districts Index Page -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/districts</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/districts</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 6. Riyadh District Landing Pages (10 Major Districts) -->
+  <!-- Al Malqa -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/districts/al-malqa</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-malqa" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-malqa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-malqa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-malqa" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-malqa" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/districts/al-malqa</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-malqa" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-malqa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-malqa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-malqa" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-malqa" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Al Narjis -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/districts/al-narjis</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-narjis" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-narjis" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-narjis" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-narjis" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-narjis" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/districts/al-narjis</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-narjis" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-narjis" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-narjis" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-narjis" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-narjis" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Al Yasmin -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/districts/al-yasmin</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-yasmin" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-yasmin" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-yasmin" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-yasmin" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-yasmin" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/districts/al-yasmin</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-yasmin" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-yasmin" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-yasmin" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-yasmin" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-yasmin" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Al Olaya -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/districts/al-olaya</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-olaya" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-olaya" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-olaya" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-olaya" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-olaya" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/districts/al-olaya</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-olaya" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-olaya" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-olaya" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-olaya" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-olaya" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Al Sahafa -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/districts/al-sahafa</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-sahafa" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-sahafa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-sahafa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-sahafa" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-sahafa" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/districts/al-sahafa</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-sahafa" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-sahafa" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-sahafa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-sahafa" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-sahafa" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Al Rawdah -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/districts/al-rawdah</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-rawdah" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-rawdah" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-rawdah" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-rawdah" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-rawdah" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/districts/al-rawdah</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-rawdah" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-rawdah" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-rawdah" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-rawdah" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-rawdah" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Al Nakheel -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/districts/al-nakheel</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-nakheel" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-nakheel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-nakheel" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-nakheel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-nakheel" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/districts/al-nakheel</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-nakheel" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-nakheel" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-nakheel" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-nakheel" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-nakheel" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Hittin -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/districts/hittin</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/hittin" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/hittin" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/hittin" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/hittin" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/hittin" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/districts/hittin</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/hittin" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/hittin" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/hittin" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/hittin" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/hittin" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Al Aqiq -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/districts/al-aqiq</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-aqiq" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-aqiq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-aqiq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-aqiq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-aqiq" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/districts/al-aqiq</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-aqiq" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-aqiq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-aqiq" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-aqiq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-aqiq" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Al Hamra -->
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/districts/al-hamra</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-hamra" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-hamra" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-hamra" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-hamra" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-hamra" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.riyadhmoversexperts.com/ar/districts/al-hamra</loc>
+    <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/districts/al-hamra" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://www.riyadhmoversexperts.com/ar/districts/al-hamra" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.riyadhmoversexperts.com/districts/al-hamra" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/districts/al-hamra" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/districts/al-hamra" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 7. Gallery Page -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/gallery</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/gallery" />
@@ -221,7 +509,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- FAQ Page -->
+  <!-- 8. FAQ Page -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/faq</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/faq" />
@@ -230,7 +518,7 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/faq" />
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.riyadhmoversexperts.com/ar/faq</loc>
@@ -240,10 +528,10 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.riyadhmoversexperts.com/ar/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.riyadhmoversexperts.com/faq" />
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Contact Page -->
+  <!-- 9. Contact Page -->
   <url>
     <loc>https://www.riyadhmoversexperts.com/contact</loc>
     <xhtml:link rel="alternate" hreflang="en-SA" href="https://www.riyadhmoversexperts.com/contact" />

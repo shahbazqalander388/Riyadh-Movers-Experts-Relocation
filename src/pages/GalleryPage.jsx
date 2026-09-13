@@ -56,6 +56,11 @@ export default function GalleryPage() {
         title={t.seo.gallery.title}
         description={t.seo.gallery.description}
         breadcrumbs={breadcrumbData}
+        keywords={
+          isArabic
+            ? ['صور نقل عفش بالرياض', 'دينا نقل عفش بالصور', 'تغليف اثاث بالرياض', 'فني فك وتركيب غرف نوم']
+            : ['Movers Riyadh Gallery', 'Moving Truck Photos Riyadh', 'Furniture Packing Riyadh Photos', 'Movers in Action Riyadh']
+        }
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

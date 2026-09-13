@@ -19,6 +19,7 @@ import {
 import { useLanguage } from '../hooks/useLanguage';
 import { images } from '../data/images';
 import { companyInfo } from '../data/companyInfo';
+import { districtsList } from '../data/districtsData';
 import SectionTitle from '../components/SectionTitle';
 import ServiceCard from '../components/ServiceCard';
 import FAQAccordion from '../components/FAQAccordion';
@@ -36,6 +37,7 @@ export default function HomePage() {
       { id: 'about', hash: '#about' },
       { id: 'services', hash: '#services' },
       { id: 'gallery', hash: '#gallery' },
+      { id: 'districts', hash: '#districts' },
       { id: 'faq', hash: '#faq' },
       { id: 'contact', hash: '#contact' },
     ];
@@ -130,6 +132,11 @@ export default function HomePage() {
       <SEOHead
         title={t.seo.home.title}
         description={t.seo.home.description}
+        keywords={
+          isArabic
+            ? 'نقل عفش بالرياض, شركة نقل اثاث بالرياض, دينا نقل عفش بالرياض, فك وتركيب غرف نوم بالرياض, اسعار نقل العفش بالرياض, تغليف اثاث بالرياض, دينا نقل عفش شمال الرياض'
+            : 'Movers and Packers in Riyadh, House Shifting Services Riyadh, Furniture Relocation Riyadh, Moving Company in Riyadh, Cheap Movers Riyadh, Villa Relocation Riyadh'
+        }
         image={images.hero}
         schema={homeFaqSchema}
       />
@@ -426,8 +433,60 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 7. FAQ PREVIEW SECTION */}
-      <section id="faq" className="py-16 sm:py-24 bg-slate-50 border-t border-slate-200/80 scroll-mt-24">
+      {/* 7. RIYADH DISTRICTS COVERAGE SECTION (High Impact Local SEO) */}
+      <section id="districts" className="py-16 sm:py-20 bg-slate-50 border-t border-slate-200/80 scroll-mt-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionTitle
+            badge={isArabic ? 'أحياء الرياض' : 'Riyadh Districts'}
+            title={isArabic ? 'دينا نقل عفش في جميع أحياء ومناطق الرياض' : 'Movers and Packers Across All Riyadh Districts'}
+            subtitle={isArabic
+              ? 'شاحنات دينا مجهزة متمركزة في شمال، شرق، وسط، وغرب الرياض لتصل إلى منزلك خلال 25 إلى 35 دقيقة مع طاقم فك وتركيب متكامل.'
+              : 'Dedicated Dina moving trucks stationed across North, East, and Central Riyadh for fast 25-35 minute response times.'}
+          />
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5 sm:gap-4">
+            {districtsList.map((d) => (
+              <Link
+                key={d.slug}
+                to={`${getLocalizedPath('/districts')}/${d.slug}`}
+                className="bg-white hover:bg-amber-50/70 p-4 rounded-2xl border border-slate-200/80 hover:border-brand-gold/60 shadow-card-soft hover:shadow-card-hover transition-all duration-200 group flex flex-col justify-between"
+              >
+                <div>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="w-7 h-7 rounded-lg bg-amber-50 group-hover:bg-brand-gold text-brand-gold-dark group-hover:text-white flex items-center justify-center transition-colors">
+                      <MapPin className="w-3.5 h-3.5" />
+                    </span>
+                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-slate-100 text-slate-600">
+                      {d.zone[isArabic ? 'ar' : 'en']}
+                    </span>
+                  </div>
+                  <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-brand-navy transition-colors">
+                    {isArabic ? `حي ${d.name.ar}` : `${d.name.en}`}
+                  </h3>
+                </div>
+
+                <div className="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-[11px] font-semibold text-brand-gold-dark">
+                  <span className="text-slate-500">{d.dispatchTime[isArabic ? 'ar' : 'en']}</span>
+                  <ArrowIcon className="w-3 h-3 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform" />
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          <div className="mt-8 text-center">
+            <Link
+              to={getLocalizedPath('/districts')}
+              className="inline-flex items-center gap-2 text-sm font-bold text-brand-navy hover:text-brand-gold transition-colors"
+            >
+              <span>{isArabic ? 'استعراض دليل كافة أحياء الرياض بالتفصيل' : 'View Full Riyadh Districts Directory'}</span>
+              <ArrowIcon className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 8. FAQ PREVIEW SECTION */}
+      <section id="faq" className="py-16 sm:py-24 bg-white border-t border-slate-200/80 scroll-mt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
             badge={t.faq.badge}

@@ -9,6 +9,7 @@ export const translations = {
       services: 'Services',
       gallery: 'Gallery',
       faq: 'FAQ',
+      districts: 'Districts',
       contact: 'Contact',
       quoteBtn: 'Get a Free Quote',
       callNow: 'Call Now',
@@ -289,41 +290,41 @@ export const translations = {
     faq: {
       badge: 'Frequently Asked Questions',
       title: 'Questions About Moving in Riyadh?',
-      subtitle: 'Find clear answers to commonly asked questions regarding our moving, packing, and relocation services.',
+      subtitle: 'Find clear answers to commonly asked questions regarding our moving, packing, and relocation services across Riyadh.',
       needMoreHelp: 'Have a specific question not answered here?',
-      contactPrompt: 'Reach out to our team via WhatsApp for an immediate response.',
+      contactPrompt: 'Reach out directly via WhatsApp (+966 56 469 4614) for an immediate response.',
       items: [
         {
-          q: 'Do you provide house moving services?',
-          a: 'Yes, we provide full house moving services across Riyadh. Our service includes packing household items, disassembling large furniture, safe transport in enclosed trucks, unloading, and reassembly at your new residence.',
+          q: 'How much does moving and packing cost in Riyadh?',
+          a: 'Moving prices in Riyadh depend on the volume of furniture, property size (apartment, villa, or office), the number of specialized moving trucks (Dina) required, and whether premium bubble wrap packaging is included. At Riyadh Movers Experts, our rates are completely transparent with zero hidden fees. Contact us on WhatsApp at +966 56 469 4614 with pictures of your furniture for a rapid, free, and accurate quote within minutes.',
         },
         {
-          q: 'Do you provide packing services?',
-          a: 'Yes, we offer comprehensive packing solutions. We utilize high-quality bubble wrap, corrugated cardboard, stretch film, and heavy-duty boxes to safeguard glassware, kitchen utensils, electronics, and delicate decor.',
+          q: 'What kind of bubble wrap and packaging materials do you use?',
+          a: 'We use industrial-grade multi-layer bubble wrap, heavy-duty corrugated cartons, tear-resistant stretch wrap, corner protectors, and padded moving blankets. Delicate items including glassware, kitchen chinaware, chandeliers, mirrors, and large screens receive specialized shock-cushioning to guarantee zero scratches or damage during transit.',
         },
         {
-          q: 'Can you move furniture?',
-          a: 'Absolutely. We specialize in furniture moving. Our skilled carpenters handle the disassembly, protective wrapping, transportation, and precise reassembly of beds, wardrobes, dining tables, and modular furniture units.',
+          q: 'Which districts and areas in Riyadh do you cover?',
+          a: 'We provide 24/7 moving coverage across all Riyadh districts. Key areas include North Riyadh (Al Malqa, Al Narjis, Al Yasmin, Al Sahafa, Al Nakheel, Hittin, Al Aqiq), Central Riyadh (Al Olaya, Al Sulimaniyah), East Riyadh (Al Rawdah, Al Hamra, Al Yarmouk), as well as West and South Riyadh. Our moving trucks (Dina) are stationed strategically across the city for rapid dispatch within 30 to 45 minutes.',
         },
         {
-          q: 'Do you provide villa moving services?',
-          a: 'Yes. We cater to villas and large properties with dedicated moving crews and multiple trucks to manage large furniture volumes, outdoor items, and multi-story layout requirements efficiently.',
+          q: 'How can I book a moving truck or get a quote via WhatsApp?',
+          a: 'Booking via WhatsApp is instantaneous! Simply message +966 56 469 4614 or click any WhatsApp button on our site. Share your current neighborhood, your new address, your preferred moving date, and brief pictures or a video of your furniture. Our relocation supervisor will provide a prompt customized quote and reserve your truck immediately.',
         },
         {
-          q: 'Do you provide office relocation services?',
-          a: 'Yes, we handle office and corporate moves. We safely transport office desks, computers, workstations, archives, and meeting room furniture with minimal disruption to your daily operations.',
+          q: 'Do you provide furniture dismantling, bedroom assembly, and carpentry?',
+          a: 'Yes! Our professional team includes experienced carpenters who safely disassemble, wrap, transport, and reassemble all types of master bedroom sets, children’s bedrooms, IKEA furniture, wardrobes, dining sets, and kitchens. All screws and hardware fittings are secured in dedicated pouches and reassembled flawlessly in your new home.',
         },
         {
-          q: 'Do you serve customers in Riyadh?',
-          a: 'Yes, we serve all areas and districts throughout Riyadh, including North, East, West, South, and Central Riyadh, as well as nearby surrounding communities.',
+          q: 'Do you provide office and corporate relocation services?',
+          a: 'Yes, we specialize in office and corporate moves across Riyadh. We safely transport executive desks, computer workstations, servers, archive files, and conference room furniture with minimal disruption to your daily operations. Weekend and overnight moving schedules are also available.',
         },
         {
-          q: 'How can I request a quote?',
-          a: 'You can easily request a free quote by sending us a message on WhatsApp (+966 56 469 4614), calling us directly, or filling out the contact form on this website.',
+          q: 'What types of moving trucks (Dina) do you operate?',
+          a: 'We operate modern, clean, enclosed Dina moving trucks and covered pickups designed specifically to protect furniture and electronics from dust, extreme heat, and road vibrations in Riyadh. Our trucks are fully equipped with tie-down straps, ramps, and moving dollies.',
         },
         {
-          q: 'How can I contact Riyadh Movers & Experts?',
-          a: 'You can call or message us via WhatsApp at +966 56 469 4614, email us at Khankeratmat453@gmail.com, or reach out through our social media channels.',
+          q: 'Are your moving services available 24/7 on weekends and holidays?',
+          a: 'Yes, Riyadh Movers Experts operates 24 hours a day, 7 days a week, including Fridays and public holidays. You can contact our moving dispatch team at +966 56 469 4614 any time of day or night.',
         },
       ],
     },
@@ -396,6 +397,8 @@ export const translations = {
       hoursText: 'Available 24 Hours / 7 Days a week',
       copyright: '© 2026 Riyadh Movers & Experts. All rights reserved.',
       locationText: 'Riyadh, Kingdom of Saudi Arabia',
+      districtsTitle: 'Riyadh Districts',
+      viewAllDistricts: 'View All Riyadh Districts →',
     },
     floatingCta: {
       whatsapp: 'WhatsApp Us',
@@ -408,6 +411,7 @@ export const translations = {
       gallery: 'Gallery',
       faq: 'FAQ',
       contact: 'Contact Us',
+      districts: 'Districts',
     },
     notFound: {
       title: '404 - Page Not Found',
@@ -417,34 +421,39 @@ export const translations = {
     },
     seo: {
       home: {
-        title: 'Movers and Packers in Riyadh | Riyadh Movers Experts',
+        title: 'Movers and Packers in Riyadh | House Shifting & Furniture Relocation | Riyadh Movers Experts',
         description:
-          'Riyadh Movers Experts delivers top-rated moving, packing, and furniture relocation across Riyadh. Contact our professional moving team today for a free quote!',
+          'Riyadh Movers Experts provides top-rated movers and packers in Riyadh. Professional house shifting, furniture relocation, bedroom dismantling & assembly, and bubble wrap packing across all Riyadh districts. Call +966 56 469 4614!',
       },
       about: {
-        title: 'About Us | Riyadh Movers Experts — Moving Company in Riyadh',
+        title: 'About Us | Professional Moving Company in Riyadh | Riyadh Movers Experts',
         description:
-          'Learn about Riyadh Movers Experts, your trusted moving company in Riyadh. We provide professional moving crews, safe packing, and reliable relocation services.',
+          'Learn about Riyadh Movers Experts, your trusted relocation partner in Riyadh. Enclosed moving trucks (Dina), skilled carpenters, and safe multi-layer packing services across Saudi Arabia.',
       },
       services: {
-        title: 'Moving Services in Riyadh | Riyadh Movers Experts Relocation',
+        title: 'Moving Services in Riyadh | House Shifting, Furniture Movers & Packing',
         description:
-          'Explore complete moving services in Riyadh by Riyadh Movers Experts. We specialize in house moves, office relocation, furniture assembly, and expert packing.',
+          'Comprehensive moving services in Riyadh: residential moves, villa relocation, corporate office shifting, furniture dismantling & reassembly, and protective bubble packing with Riyadh Movers Experts.',
       },
       gallery: {
-        title: 'Gallery | Moving Trucks & Packing | Riyadh Movers Experts',
+        title: 'Work Gallery | Moving Trucks & Packing Operations in Riyadh',
         description:
-          'View real photos of Riyadh Movers Experts in action across Riyadh. See our modern enclosed moving trucks, expert packing techniques, and safe moving operations.',
+          'Real photos of Riyadh Movers Experts in action across Riyadh: enclosed Dina trucks, professional furniture wrapping, and secure residential moving operations.',
       },
       faq: {
-        title: 'FAQs & Moving Advice in Riyadh | Riyadh Movers Experts',
+        title: 'Frequently Asked Questions | Moving Costs, Packing & Booking in Riyadh',
         description:
-          'Find quick answers to common questions about moving in Riyadh, moving costs, packing supplies, furniture assembly, and truck booking with Riyadh Movers Experts.',
+          'Find answers about house moving costs in Riyadh, bubble wrap packing, all covered Riyadh districts, WhatsApp booking (+966 56 469 4614), and furniture assembly.',
       },
       contact: {
-        title: 'Contact Us & Get Moving Quotes | Riyadh Movers Experts',
+        title: 'Contact Riyadh Movers | Get Moving Quote & Book Dina Truck 24/7',
         description:
-          'Contact Riyadh Movers Experts at +966 56 469 4614 for instant moving quotes in Riyadh. Available 24/7 for residential, office, and local furniture relocations.',
+          'Contact Riyadh Movers Experts at +966 56 469 4614 for instant moving estimates and 24/7 truck booking in Riyadh. Fast dispatch to all Riyadh neighborhoods.',
+      },
+      districts: {
+        title: 'Movers and Packers in Riyadh Districts | Local Moving Services',
+        description:
+          'Find expert moving and packing services in your Riyadh neighborhood. Fast Dina moving truck dispatch to Al Malqa, Al Narjis, Al Yasmin, Al Olaya, Al Sahafa, Al Rawdah, and more.',
       },
       notFound: {
         title: 'Page Not Found | Riyadh Movers Experts',
@@ -462,6 +471,7 @@ export const translations = {
       services: 'خدماتنا',
       gallery: 'معرض الصور',
       faq: 'الأسئلة الشائعة',
+      districts: 'أحياء الرياض',
       contact: 'اتصل بنا',
       quoteBtn: 'طلب عرض سعر مجاني',
       callNow: 'اتصل الآن',
@@ -741,42 +751,42 @@ export const translations = {
     },
     faq: {
       badge: 'الأسئلة الشائعة',
-      title: 'أسئلة شائعة حول نقل الأثاث بالرياض',
-      subtitle: 'إجابات واضحة ومباشرة عن كافة الاستفسارات المتعلقة بخدماتنا وخامات التغليف والأسعار.',
+      title: 'أسئلة شائعة حول نقل الأثاث والعفش بالرياض',
+      subtitle: 'إجابات وافية ومباشرة عن تكلفة نقل العفش، خامات تغليف البابلز، الأحياء المغطاة، وطريقة الحجز السريع عبر الواتساب.',
       needMoreHelp: 'هل لديك استفسار آخر لم تجد إجابته هنا؟',
-      contactPrompt: 'تواصل مباشرة مع فريقنا عبر واتساب وسنجيبك فوراً.',
+      contactPrompt: 'تواصل مباشرة مع مشرف النقل عبر واتساب (+966 56 469 4614) وسنجيبك فوراً.',
       items: [
         {
-          q: 'هل تقدمون خدمات نقل المنازل؟',
-          a: 'نعم، نقدم خدمة متكاملة لنقل المنازل تشمل فك الأثاث، وتغليفه بالكامل، ونقله بشاحنات مغلقة ومخصصة، ثم إعادة تركيبه وترتيبه في منزلك الجديد داخل الرياض.',
+          q: 'كم تكلفة نقل العفش بالرياض وما هي معايير التسعير؟',
+          a: 'تعتمد تكلفة نقل العفش بالرياض على حجم المنقولات (شقة، فيلا، مكتب)، وعدد غرف النوم المطلوب فكها وتركيبها، وعدد شاحنات دينا نقل العفش، وما إذا كنت بحاجة إلى كراتين وتغليف بابلز فاخر. في خبراء الرياض نقدم أسعاراً واضحة وتنافسية تبدأ من أسعار اقتصادية بدون أي رسوم خفية. يمكنك إرسال صور العفش عبر الواتساب على 0564694614 للحصول على تسعيرة دقيقة ومجانية خلال دقائق معدودة.',
         },
         {
-          q: 'هل توفرون خدمات التغليف؟',
-          a: 'نعم، نوفر خدمات تغليف شاملة باستخدام رولات الفقاعات الهوائية (البابلز)، والكرتون المقوى، والنايلون الاسترتش، لحماية الأواني الزجاجية، والأجهزة الكهربائية، والتحف من أي كسر أو خدش.',
+          q: 'ما هي مواد وتغليف البابلز المستخدمة لحماية الأثاث والزجاج؟',
+          a: 'نستخدم أعلى خامات التغليف جودة في السوق السعودي: رولات فقاعات الهواء (البابلز) متعددة الطبقات لحماية الزجاج والتحف وشاشات التلفزيون الكبيرة، والكرتون المقوى السميك للأواني والمقتنيات، والنايلون الاسترتش لحماية الكنب والمفروشات من الغبار، بالإضافة إلى بطانيات مخصصة لتبطين زوانب وأطراف الأخشاب لمنع أي خدوش أثناء السير بالدينا.',
         },
         {
-          q: 'هل يمكنكم فك ونقل وتركيب الأثاث؟',
-          a: 'بالتأكيد، نحن متخصصون في فك ونقل وتركيب الأثاث. لدينا نجارون محترفون للتعامل مع غرف النوم، والدواليب، وطاولات الطعام، والمطابخ، وإعادة تركيبها بدقة في مكانها الجديد.',
+          q: 'ما هي أحياء الرياض التي تغطيها دينا نقل العفش التابعة لكم؟',
+          a: 'نغطي كافة أحياء ومناطق الرياض على مدار 24 ساعة يومياً. تشمل تغطيتنا: شمال الرياض (حي الملقا، حي النرجس، حي الياسمين، حي الصحافة، حي النخيل، حي حطين، حي العقيق، حي القيروان)، ووسط الرياض (العليا، السليمانية)، وشرق الرياض (حي الروضة، حي الحمراء، اليرموك، المونسية)، بالإضافة لأحياء غرب وجنوب الرياض. تتمركز سيارات دينا نقل العفش في نقاط حيوية لضمان الوصول إليك خلال 30 إلى 45 دقيقة.',
         },
         {
-          q: 'هل تقدمون خدمات نقل الفلل؟',
-          a: 'نعم، نمتلك القدرة والعمالة والشاحنات الكافية لنقل الفلل والقصور والوحدات السكنية الكبيرة وتنظيم نقلها بأعلى درجات الاحترافية والتنسيق بين الطوابق.',
+          q: 'كيف يمكنني حجز دينا نقل عفش أو الحصول على تسعيرة عبر الواتساب؟',
+          a: 'الحجز عبر الواتساب في غاية السهولة والسرعة! اضغط على زر الواتساب أو راسلنا على الرقم +966564694614، وزودنا بموقعك الحالي، والحي المنقول إليه، والموعد المفضل، مع صور أو فيديو سريع لقطع الأثاث. سيقوم منسق العمليات بالرد الفوري وتزويدك بأفضل تسعيرة شاملة وتأكيد موعد الدينا وفريق العمل فوراً.',
         },
         {
-          q: 'هل تقدمون خدمات نقل المكاتب والشركات؟',
-          a: 'نعم، نقدم خدمات نقل الشركات والمكاتب التجارية بأسلوب منظم يضمن سلامة الملفات والأجهزة ومحطات العمل مع تقليل فترة توقف العمل إلى أدنى حد.',
+          q: 'هل توفرون فنيين ونجارين لفك وتركيب غرف النوم والمطابخ بالرياض؟',
+          a: 'نعم بالتأكيد! يضم طاقمنا نجارين وفنيين محترفين ذوي خبرة طويلة في فك وتركيب جميع أنواع غرف النوم الحديثة والكلاسيكية، وأثاث ايكيا، والدواليب، وطاولات الطعام، وتركيب المطابخ، والستائر، والأجهزة الكهربائية. نحرص على حفظ كافة المسامير والإكسسوارات في أكياس مخصصة وإعادة تركيب كل قطعة بإتقان تام في منزلك الجديد.',
         },
         {
-          q: 'هل تخدمون جميع أحياء الرياض؟',
-          a: 'نعم، نخدم كافة مناطق وأحياء مدينة الرياض (شمال، شرق، غرب، جنوب، ووسط الرياض) بالإضافة إلى المناطق المجاورة للعاصمة.',
+          q: 'هل تقدمون خدمات نقل المكاتب والشركات والمؤسسات بالرياض؟',
+          a: 'نعم، نحن متخصصون في نقل المقرات الإدارية والشركات بالرياض. نوفر نقل منظم لمحطات العمل، والمكاتب التنفيذية، وأجهزة الحاسوب، والسيرفرات، والأرشيف الورقي، مع توفير خيارات النقل في عطلة نهاية الأسبوع لضمان عدم انقطاع أعمال شركتك.',
         },
         {
-          q: 'كيف يمكنني طلب عرض سعر؟',
-          a: 'يمكنك الحصول على عرض سعر مجاني وسريع عبر مراسلتنا مباشرة على واتساب (+966 56 469 4614)، أو الاتصال الهاتفي المباشر، أو تعبئة نموذج الموقع.',
+          q: 'ما هي مواصفات سيارات دينا نقل العفش لديكم؟',
+          a: 'أسطولنا يضم سيارات دينا مغلقة ومؤمنة بالكامل ومبطنة من الداخل بأبعاد واسعة لحماية العفش من أشعة الشمس والغبار والرياح وأمطار الرياض، ومزودة بأحزمة تثبيت قوية لمنع اهتزاز الأثاث، وعربات ترولي ومنحدرات لتنزيل وتحميل آمن.',
         },
         {
-          q: 'كيف يمكنني التواصل مع خبراء نقل الأثاث بالرياض؟',
-          a: 'يمكنك التواصل معنا عبر الهاتف أو واتساب على الرقم: +966 56 469 4614، أو عبر البريد الإلكتروني Khankeratmat453@gmail.com، أو من خلال حساباتنا في وسائل التواصل الاجتماعي.',
+          q: 'هل خدماتكم متاحة 24 ساعة وفي أيام الجمعة والعطلات الرسمية؟',
+          a: 'نعم، يعمل فريق خبراء نقل وتغليف الأثاث بالرياض على مدار الساعة (24/7) طوال أيام الأسبوع بما فيها أيام الجمعة والعطل والإجازات الرسمية لتلبية طلبات النقل الطارئة والمجدولة في أي وقت.',
         },
       ],
     },
@@ -849,6 +859,8 @@ export const translations = {
       hoursText: 'خدمة متواصلة 24 ساعة / 7 أيام في الأسبوع',
       copyright: '© 2026 خبراء نقل وتغليف الأثاث بالرياض. جميع الحقوق محفوظة.',
       locationText: 'الرياض، المملكة العربية السعودية',
+      districtsTitle: 'أحياء الرياض',
+      viewAllDistricts: 'استعراض كافة أحياء الرياض ←',
     },
     floatingCta: {
       whatsapp: 'واتساب',
@@ -861,6 +873,7 @@ export const translations = {
       gallery: 'معرض الصور',
       faq: 'الأسئلة الشائعة',
       contact: 'اتصل بنا',
+      districts: 'أحياء الرياض',
     },
     notFound: {
       title: '404 - الصفحة غير موجودة',
@@ -870,34 +883,39 @@ export const translations = {
     },
     seo: {
       home: {
-        title: 'خبراء نقل وتغليف الأثاث بالرياض | شركة نقل عفش بالرياض',
+        title: 'نقل عفش بالرياض | شركة نقل اثاث بالرياض | دينا نقل عفش فك وتركيب غرف نوم',
         description:
-          'شركة خبراء نقل وتغليف الأثاث بالرياض تقدم أفضل خدمات نقل العفش، فك وتركيب غرف النوم، ونقل المكاتب والفلل بأمان تام واحترافية عالية. تواصل معنا اليوم.',
+          'أفضل شركة نقل عفش بالرياض: نقل أثاث، فك وتركيب غرف نوم، دينا نقل عفش مجهزة، وتغليف بابلز آمن في جميع أحياء الرياض على مدار 24 ساعة. اتصل بنا: 0564694614.',
       },
       about: {
-        title: 'من نحن | خبراء نقل وتغليف الأثاث بالرياض — شركة نقل معتمدة',
+        title: 'من نحن | شركة نقل عفش واثاث بالرياض معتمدة | خبراء الرياض',
         description:
-          'تعرف على شركة خبراء نقل وتغليف الأثاث بالرياض، الشركة الرائدة والمعتمدة في نقل العفش وتغليف الأثاث ونقل الشركات في كافة أحياء الرياض بأسطول دينا حديث.',
+          'تعرف على شركة خبراء نقل وتغليف الأثاث بالرياض. أسطول شاحنات دينا مغلقة، نجارين محترفين لفك وتركيب الأثاث، وحلول تغليف متطورة لنقل آمن وموثوق في الرياض.',
       },
       services: {
-        title: 'خدمات نقل وتغليف الأثاث بالرياض | شركة نقل عفش وفك وتركيب',
+        title: 'خدمات نقل عفش بالرياض | دينا نقل اثاث وفك وتركيب وتغليف شامل',
         description:
-          'استكشف خدمات نقل وتغليف الأثاث بالرياض من شركة خبراء النقل: نقل منازل، نقل مكاتب، فك وتركيب غرف النوم والمطابخ، وتغليف آمن بأفضل الأسعار على مدار الساعة.',
+          'خدمات متكاملة لنقل العفش بالرياض: نقل منازل، نقل فلل وقصور، نقل مكاتب وشركات، فك وتركيب غرف نوم بالرياض، وتغليف بابلز وقائي بأفضل الأسعار على مدار الساعة.',
       },
       gallery: {
-        title: 'معرض الصور | خبراء نقل وتغليف الأثاث بالرياض — أسطول دينا',
+        title: 'معرض الصور | دينا نقل عفش بالرياض وشاحنات نقل الأثاث المجهزة',
         description:
-          'شاهد صور حية لعمليات نقل وتغليف العفش في الرياض من خبراء نقل الأثاث: أسطول دينا مغلقة، خامات تغليف عالية الجودة، وفريق تحميل محترف لنقل آمن ومضمون.',
+          'شاهد صور حية لأسطول دينا نقل عفش بالرياض، وعمليات فك وتغليف الأثاث بالبابلز، والتحميل المنظم لشاحنات خبراء نقل الأثاث في الرياض.',
       },
       faq: {
-        title: 'أسئلة شائعة عن نقل العفش بالرياض | خبراء نقل وتغليف الأثاث',
+        title: 'الأسئلة الشائعة حول نقل العفش بالرياض | اسعار النقل ودينا العفش والتغليف',
         description:
-          'إجابات شاملة لجميع الأسئلة الشائعة حول نقل العفش بالرياض، تكلفة النقل، توفير كراتين التغليف، مواعيد وصول دينا النقل، وطرق حماية الأثاث الحساس والزجاج.',
+          'إجابات تفصيلية عن تكلفة نقل العفش بالرياض، أنواع كراتين وبابلز التغليف، الأحياء المغطاة، حجز دينا عبر واتساب 0564694614، وفك وتركيب غرف النوم.',
       },
       contact: {
-        title: 'اتصل بنا واحجز دينا نقل عفش | خبراء نقل الأثاث بالرياض',
+        title: 'اتصل بنا واحجز دينا نقل عفش بالرياض 24 ساعة | تسعيرة فورية',
         description:
-          'اتصل بشركة خبراء نقل وتغليف الأثاث بالرياض على الرقم 0564694614 أو عبر الواتساب للحصول على تسعيرة فورية لنقل العفش والمنازل والمكاتب في كافة أحياء الرياض.',
+          'تواصل مع خبراء نقل وتغليف الأثاث بالرياض عبر الهاتف أو واتساب على الرقم 0564694614 لحجز دينا نقل عفش سريعة والحصول على تسعيرة فورية في كافة أحياء الرياض.',
+      },
+      districts: {
+        title: 'دينا نقل عفش في أحياء الرياض | شركة نقل اثاث بالرياض لكافة الأحياء',
+        description:
+          'خدمات نقل العفش والأثاث السريعة في جميع أحياء الرياض: الملقا، النرجس، الياسمين، العليا، الصحافة، الروضة، حطين، النخيل مع وصول سريع خلال 30 دقيقة.',
       },
       notFound: {
         title: 'الصفحة غير موجودة | خبراء نقل الأثاث بالرياض',

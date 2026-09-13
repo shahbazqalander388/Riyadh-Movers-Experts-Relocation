@@ -42,6 +42,11 @@ export default function FAQPage() {
       <SEOHead
         title={t.seo.faq.title}
         description={t.seo.faq.description}
+        keywords={
+          isArabic
+            ? 'اسئلة شائعة نقل عفش بالرياض, تكلفة نقل العفش بالرياض, اسعار دينا نقل عفش, كراتين تغليف بابلز, حجز دينا واتساب, فك وتركيب غرف نوم'
+            : 'Moving FAQs Riyadh, Moving Cost Riyadh, Packing Supplies Riyadh, WhatsApp Moving Booking, Dina Truck Riyadh, Furniture Assembly'
+        }
         schema={faqSchema}
         breadcrumbs={breadcrumbData}
       />

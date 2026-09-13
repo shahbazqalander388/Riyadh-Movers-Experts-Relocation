@@ -8,6 +8,9 @@ import FAQPage from './pages/FAQPage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
 
+import DistrictsDirectoryPage from './pages/DistrictsDirectoryPage';
+import DistrictPage from './pages/DistrictPage';
+
 export default function App() {
   return (
     <Routes>
@@ -17,6 +20,8 @@ export default function App() {
         <Route path="about" element={<AboutPage />} />
         <Route path="services" element={<ServicesPage />} />
         <Route path="services/:slug" element={<ServicesPage />} />
+        <Route path="districts" element={<DistrictsDirectoryPage />} />
+        <Route path="districts/:slug" element={<DistrictPage />} />
         <Route path="gallery" element={<GalleryPage />} />
         <Route path="faq" element={<FAQPage />} />
         <Route path="contact" element={<ContactPage />} />
@@ -26,6 +31,8 @@ export default function App() {
         <Route path="ar/about" element={<AboutPage />} />
         <Route path="ar/services" element={<ServicesPage />} />
         <Route path="ar/services/:slug" element={<ServicesPage />} />
+        <Route path="ar/districts" element={<DistrictsDirectoryPage />} />
+        <Route path="ar/districts/:slug" element={<DistrictPage />} />
         <Route path="ar/gallery" element={<GalleryPage />} />
         <Route path="ar/faq" element={<FAQPage />} />
         <Route path="ar/contact" element={<ContactPage />} />

@@ -88,6 +88,11 @@ export default function ContactPage() {
         title={t.seo.contact.title}
         description={t.seo.contact.description}
         breadcrumbs={breadcrumbData}
+        keywords={
+          isArabic
+            ? ['ارقام نقل عفش بالرياض', 'حجز دينا نقل عفش', 'رقم شركة نقل اثاث', 'اسعار نقل العفش', 'واتساب نقل عفش بالرياض']
+            : ['Contact Movers Riyadh', 'Book Dina Moving Truck', 'Moving Quote Riyadh', 'Movers WhatsApp Number Riyadh']
+        }
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
