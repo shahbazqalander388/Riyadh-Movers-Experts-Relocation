@@ -153,7 +153,7 @@ export default function Navbar() {
                 className={({ isActive }) =>
                   `px-3 py-2 rounded-lg text-sm font-semibold transition-all duration-150 ${
                     isActive
-                      ? 'text-brand-gold-dark bg-amber-50/80 font-bold'
+                      ? 'text-brand-navy font-bold hover:bg-slate-50'
                       : 'text-slate-700 hover:text-brand-navy hover:bg-slate-50'
                   }`
                 }
@@ -212,7 +212,7 @@ export default function Navbar() {
                   className={({ isActive }) =>
                     `flex items-center justify-between px-4 py-3.5 rounded-xl text-base font-semibold transition-all ${
                       isActive
-                        ? 'bg-amber-50 text-brand-gold-dark font-bold'
+                        ? 'bg-slate-100 text-brand-navy font-bold'
                         : 'text-slate-700 hover:bg-slate-50'
                     }`
                   }

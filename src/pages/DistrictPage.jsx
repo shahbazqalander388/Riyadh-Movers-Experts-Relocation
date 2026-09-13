@@ -342,7 +342,7 @@ export default function DistrictPage() {
           </div>
 
           <div className="max-w-3xl mx-auto">
-            <FAQAccordion items={formattedFaqs} allowMultiple={true} defaultOpenIndex={0} />
+            <FAQAccordion items={formattedFaqs} allowMultiple={true} />
           </div>
         </section>
 
@@ -374,7 +374,7 @@ export default function DistrictPage() {
               <Link
                 key={d.slug}
                 to={`${getLocalizedPath('/districts')}/${d.slug}`}
-                className="bg-white hover:bg-amber-50/60 p-3 rounded-xl border border-slate-200 hover:border-brand-gold/60 text-center transition-all group shadow-2xs"
+                className="bg-white p-3 rounded-xl border border-slate-200 hover:border-brand-gold/60 text-center transition-all group shadow-2xs"
               >
                 <span className="block text-xs font-bold text-slate-800 group-hover:text-brand-navy transition-colors">
                   {d.name[currentLang]}

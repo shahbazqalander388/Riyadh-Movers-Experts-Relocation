@@ -449,7 +449,7 @@ export default function HomePage() {
               <Link
                 key={d.slug}
                 to={`${getLocalizedPath('/districts')}/${d.slug}`}
-                className="bg-white hover:bg-amber-50/70 p-4 rounded-2xl border border-slate-200/80 hover:border-brand-gold/60 shadow-card-soft hover:shadow-card-hover transition-all duration-200 group flex flex-col justify-between"
+                className="bg-white p-4 rounded-2xl border border-slate-200/80 hover:border-brand-gold/60 shadow-card-soft hover:shadow-card-hover transition-all duration-200 group flex flex-col justify-between"
               >
                 <div>
                   <div className="flex items-center justify-between mb-2">
@@ -494,7 +494,7 @@ export default function HomePage() {
             subtitle={t.faq.subtitle}
           />
 
-          <FAQAccordion items={t.faq.items} defaultOpenIndex={0} />
+          <FAQAccordion items={t.faq.items} />
 
           <div className="mt-10 text-center">
             <Link
