@@ -34,11 +34,6 @@ export default function AboutPage() {
       <SEOHead
         title={t.seo.about.title}
         description={t.seo.about.description}
-        keywords={
-          isArabic
-            ? 'شركة نقل اثاث بالرياض, خبراء نقل العفش, دينا نقل عفش بالرياض, اسطول دينا نقل عفش, نجارين نقل اثاث'
-            : 'Moving Company in Riyadh, Riyadh Movers Experts, Professional Movers Riyadh, Relocation Services Saudi Arabia'
-        }
         image={images.about}
         breadcrumbs={breadcrumbData}
       />
@@ -84,9 +79,9 @@ export default function AboutPage() {
                 <span className="p-2 rounded-lg bg-amber-50 text-brand-gold-dark">
                   <HeartHandshake className="w-5 h-5" />
                 </span>
-                <h2 className="text-2xl font-bold text-slate-900">
+                <h3 className="text-2xl font-bold text-slate-900">
                   {t.about.philosophyTitle}
-                </h2>
+                </h3>
               </div>
               <p className="text-slate-600 leading-relaxed text-base">
                 {t.about.philosophyDesc}

@@ -6,7 +6,6 @@ import { updateSEO } from '../utils/seo';
 export default function SEOHead({
   title,
   description,
-  keywords,
   image,
   schema,
   breadcrumbs,
@@ -19,7 +18,6 @@ export default function SEOHead({
     updateSEO({
       title,
       description,
-      keywords,
       canonicalPath: location.pathname,
       image,
       lang,
@@ -27,7 +25,7 @@ export default function SEOHead({
       breadcrumbs,
       noindex,
     });
-  }, [title, description, keywords, location.pathname, image, lang, schema, breadcrumbs, noindex]);
+  }, [title, description, location.pathname, image, lang, schema, breadcrumbs, noindex]);
 
   return null;
 }

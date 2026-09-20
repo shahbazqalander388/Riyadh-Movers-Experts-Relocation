@@ -50,56 +50,12 @@ export default function DistrictPage() {
   const pageH1 = district.h1[currentLang];
   const tagline = district.tagline[currentLang];
 
-  // Specific high-intent keywords for this district
-  const districtKeywords = isArabic
-    ? `نقل عفش حي ${districtName} بالرياض, دينا نقل عفش حي ${districtName}, شركة نقل اثاث حي ${districtName}, فك وتركيب غرف نوم حي ${districtName}, نقل عفش ${districtZone}, ارقام نقل عفش بالرياض`
-    : `Movers and Packers in ${districtName} Riyadh, House Shifting ${districtName} Riyadh, Furniture Relocation ${districtName}, Dina Moving Truck ${districtName}, Moving Company ${districtName} Riyadh`;
-
   // WhatsApp Pre-filled message tailored to this district
   const whatsappMessage = isArabic
     ? `السلام عليكم، أحتاج حجز دينا نقل عفش وفك وتركيب في حي ${district.name.ar} بالرياض.`
     : `Hello Riyadh Movers Experts, I need a moving and packing quote for ${district.name.en} district in Riyadh.`;
 
-  // JSON-LD Schemas: MovingCompany (local) + FAQPage + Breadcrumbs
-  const districtMovingCompanySchema = {
-    '@type': 'MovingCompany',
-    '@id': `https://www.riyadhmoversexperts.com/#movingcompany-${district.slug}`,
-    name: isArabic
-      ? `خبراء نقل وتغليف الأثاث - فرع حي ${district.name.ar}`
-      : `Riyadh Movers Experts - ${district.name.en} Branch`,
-    url: isArabic
-      ? `https://www.riyadhmoversexperts.com/ar/districts/${district.slug}`
-      : `https://www.riyadhmoversexperts.com/districts/${district.slug}`,
-    telephone: companyInfo.phoneRaw,
-    areaServed: {
-      '@type': 'AdministrativeArea',
-      name: `${district.name.en} (${district.fullName.ar})`,
-      containedInPlace: {
-        '@type': 'City',
-        name: 'Riyadh',
-      },
-    },
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: district.coordinates.lat,
-      longitude: district.coordinates.lng,
-    },
-    openingHours: 'Mo-Su 00:00-23:59',
-    priceRange: '$$',
-    currenciesAccepted: 'SAR',
-    paymentAccepted: 'Cash, Bank Transfer, Mada',
-    serviceType: [
-      'House Moving Services',
-      'Residential Relocation',
-      'Furniture Dismantling and Assembly',
-      'Multi-layer Bubble Wrap Packing',
-      'Dina Moving Trucks',
-      `نقل عفش حي ${district.name.ar}`,
-      `دينا نقل عفش حي ${district.name.ar}`,
-      'فك وتركيب غرف نوم بالرياض',
-    ],
-  };
-
+  // JSON-LD Schemas: FAQPage
   const districtFaqSchema = {
     '@type': 'FAQPage',
     mainEntity: district.faqs.map((faq) => ({
@@ -166,9 +122,8 @@ export default function DistrictPage() {
       <SEOHead
         title={pageTitle}
         description={pageDescription}
-        keywords={districtKeywords}
         image={images.servicesBanner}
-        schema={[districtMovingCompanySchema, districtFaqSchema]}
+        schema={districtFaqSchema}
         breadcrumbs={breadcrumbData}
       />
 

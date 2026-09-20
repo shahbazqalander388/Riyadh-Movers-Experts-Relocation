@@ -13,7 +13,6 @@ import {
   Package,
   ShieldAlert,
   Compass,
-  Tag,
 } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import { images, serviceAlts } from '../data/images';
@@ -77,7 +76,6 @@ export default function ServicesPage() {
     const serviceAlt = serviceAlts[matchedService.slug]?.[isArabic ? 'ar' : 'en'] || matchedService.title;
 
     const singleServiceSchema = {
-      '@context': 'https://schema.org',
       '@type': 'Service',
       name: pageH1,
       description: pageDescription,
@@ -103,7 +101,6 @@ export default function ServicesPage() {
         <SEOHead
           title={pageTitle}
           description={pageDescription}
-          keywords={relatedKeywords ? relatedKeywords.join(', ') : undefined}
           image={serviceImg}
           schema={singleServiceSchema}
           breadcrumbs={breadcrumbsData}
@@ -129,19 +126,6 @@ export default function ServicesPage() {
             <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
               {pageDescription}
             </p>
-
-            {/* Related Keyword Tags */}
-            <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
-              {relatedKeywords.map((kw, idx) => (
-                <span
-                  key={idx}
-                  className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-slate-100 text-slate-600 text-xs font-medium border border-slate-200"
-                >
-                  <Tag className="w-3 h-3 text-brand-gold shrink-0" />
-                  <span>{kw}</span>
-                </span>
-              ))}
-            </div>
           </div>
 
           {/* Main Service Card */}
@@ -272,7 +256,6 @@ export default function ServicesPage() {
 
   // 2. FULL CATALOG OVERVIEW VIEW (When no slug is specified)
   const serviceSchema = {
-    '@context': 'https://schema.org',
     '@type': 'ItemList',
     itemListElement: t.services.items.map((srv, index) => ({
       '@type': 'ListItem',
@@ -301,11 +284,6 @@ export default function ServicesPage() {
       <SEOHead
         title={t.seo.services.title}
         description={t.seo.services.description}
-        keywords={
-          isArabic
-            ? 'خدمات نقل اثاث بالرياض, دينا نقل عفش بالرياض, فك وتركيب غرف نوم, تغليف بابلز, نقل مكاتب بالرياض, نقل فلل بالرياض'
-            : 'Moving Services Riyadh, House Shifting Riyadh, Furniture Movers Riyadh, Packing and Moving Riyadh, Office Relocation Riyadh'
-        }
         image={images.servicesBanner}
         schema={serviceSchema}
         breadcrumbs={breadcrumbData}

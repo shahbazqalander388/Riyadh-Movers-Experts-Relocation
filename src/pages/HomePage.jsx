@@ -132,11 +132,6 @@ export default function HomePage() {
       <SEOHead
         title={t.seo.home.title}
         description={t.seo.home.description}
-        keywords={
-          isArabic
-            ? 'نقل عفش بالرياض, شركة نقل اثاث بالرياض, دينا نقل عفش بالرياض, فك وتركيب غرف نوم بالرياض, اسعار نقل العفش بالرياض, تغليف اثاث بالرياض, دينا نقل عفش شمال الرياض'
-            : 'Movers and Packers in Riyadh, House Shifting Services Riyadh, Furniture Relocation Riyadh, Moving Company in Riyadh, Cheap Movers Riyadh, Villa Relocation Riyadh'
-        }
         image={images.hero}
         schema={homeFaqSchema}
       />

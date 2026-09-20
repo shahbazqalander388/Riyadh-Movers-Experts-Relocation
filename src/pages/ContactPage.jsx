@@ -88,11 +88,6 @@ export default function ContactPage() {
         title={t.seo.contact.title}
         description={t.seo.contact.description}
         breadcrumbs={breadcrumbData}
-        keywords={
-          isArabic
-            ? ['ارقام نقل عفش بالرياض', 'حجز دينا نقل عفش', 'رقم شركة نقل اثاث', 'اسعار نقل العفش', 'واتساب نقل عفش بالرياض']
-            : ['Contact Movers Riyadh', 'Book Dina Moving Truck', 'Moving Quote Riyadh', 'Movers WhatsApp Number Riyadh']
-        }
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -120,9 +115,9 @@ export default function ContactPage() {
               <div className="w-12 h-12 rounded-xl bg-amber-50 text-brand-gold-dark flex items-center justify-center mb-4">
                 <Phone className="w-6 h-6" />
               </div>
-              <h2 className="text-base font-bold text-slate-900">
+              <h3 className="text-base font-bold text-slate-900">
                 {t.contact.cards.phone.title}
-              </h2>
+              </h3>
               <p className="text-xs text-slate-500 mt-1 mb-3">
                 {t.contact.cards.phone.subtitle}
               </p>
@@ -145,9 +140,9 @@ export default function ContactPage() {
               <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4">
                 <MessageCircle className="w-6 h-6" />
               </div>
-              <h2 className="text-base font-bold text-slate-900">
+              <h3 className="text-base font-bold text-slate-900">
                 {t.contact.cards.whatsapp.title}
-              </h2>
+              </h3>
               <p className="text-xs text-slate-500 mt-1 mb-3">
                 {t.contact.cards.whatsapp.subtitle}
               </p>
@@ -166,9 +161,9 @@ export default function ContactPage() {
               <div className="w-12 h-12 rounded-xl bg-blue-50 text-brand-blue flex items-center justify-center mb-4">
                 <Mail className="w-6 h-6" />
               </div>
-              <h2 className="text-base font-bold text-slate-900">
+              <h3 className="text-base font-bold text-slate-900">
                 {t.contact.cards.email.title}
-              </h2>
+              </h3>
               <p className="text-xs text-slate-500 mt-1 mb-3">
                 {t.contact.cards.email.subtitle}
               </p>
@@ -195,9 +190,9 @@ export default function ContactPage() {
               <div className="w-12 h-12 rounded-xl bg-slate-100 text-slate-800 flex items-center justify-center mb-4">
                 <MapPin className="w-6 h-6 text-brand-gold-dark" />
               </div>
-              <h2 className="text-base font-bold text-slate-900">
+              <h3 className="text-base font-bold text-slate-900">
                 {t.contact.cards.location.title}
-              </h2>
+              </h3>
               <p className="text-xs text-slate-500 mt-1 mb-3">
                 {t.contact.cards.location.subtitle}
               </p>

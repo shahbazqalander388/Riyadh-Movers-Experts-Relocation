@@ -5,7 +5,6 @@ const SITE_URL = 'https://www.riyadhmoversexperts.com';
 export function updateSEO({
   title,
   description,
-  keywords,
   canonicalPath = '',
   image = '/images/real-9.jpg',
   lang = 'en',
@@ -31,12 +30,11 @@ export function updateSEO({
   setMeta('description', 'name', description);
   setMeta('robots', 'name', noindex ? 'noindex, nofollow' : 'index, follow');
 
-  // Local & Keywords Meta
-  const defaultKeywords =
-    lang === 'ar'
-      ? 'نقل عفش بالرياض, شركة نقل اثاث بالرياض, دينا نقل عفش بالرياض, فك وتركيب غرف نوم بالرياض, دينا نقل عفش, اسعار نقل العفش بالرياض, تغليف اثاث بالرياض, نجار فك وتركيب بالرياض, نقل عفش شمال الرياض'
-      : 'Movers and Packers in Riyadh, House Shifting Services Riyadh, Furniture Relocation Riyadh, Moving Company in Riyadh, Cheap Movers Riyadh, Villa Relocation Riyadh, Office Movers Riyadh, Furniture Dismantling Assembly Riyadh';
-  setMeta('keywords', 'name', keywords || defaultKeywords);
+  // Remove deprecated/spammy meta keywords if present in document head
+  const existingKeywordsEl = document.querySelector('meta[name="keywords"]');
+  if (existingKeywordsEl) {
+    existingKeywordsEl.remove();
+  }
 
   // Geo Tags for Riyadh Local SEO
   setMeta('geo.region', 'name', 'SA-01');
@@ -140,7 +138,7 @@ export function updateSEO({
       '@id': `${SITE_URL}/#movingcompany`,
       name: lang === 'ar' ? companyInfo.name.ar : companyInfo.name.en,
       alternateName: lang === 'ar' ? companyInfo.name.en : companyInfo.name.ar,
-      url: currentCanonicalUrl,
+      url: `${SITE_URL}/`,
       logo: `${SITE_URL}/images/logo.jpg`,
       image: fullImage,
       telephone: companyInfo.phoneRaw || '+966564694614',
@@ -180,16 +178,16 @@ export function updateSEO({
       ],
       areaServed: [
         { '@type': 'City', name: 'Riyadh', sameAs: 'https://en.wikipedia.org/wiki/Riyadh' },
-        { '@type': 'AdministrativeArea', name: 'Al Malqa (حي الملقا)' },
-        { '@type': 'AdministrativeArea', name: 'Al Narjis (حي النرجس)' },
-        { '@type': 'AdministrativeArea', name: 'Al Yasmin (حي الياسمين)' },
-        { '@type': 'AdministrativeArea', name: 'Al Olaya (حي العليا)' },
-        { '@type': 'AdministrativeArea', name: 'Al Sahafa (حي الصحافة)' },
-        { '@type': 'AdministrativeArea', name: 'Al Rawdah (حي الروضة)' },
-        { '@type': 'AdministrativeArea', name: 'Al Nakheel (حي النخيل)' },
-        { '@type': 'AdministrativeArea', name: 'Hittin (حي حطين)' },
-        { '@type': 'AdministrativeArea', name: 'Al Aqiq (حي العقيق)' },
-        { '@type': 'AdministrativeArea', name: 'Al Hamra (حي الحمراء)' },
+        { '@type': 'AdministrativeArea', name: 'Al Malqa' },
+        { '@type': 'AdministrativeArea', name: 'Al Narjis' },
+        { '@type': 'AdministrativeArea', name: 'Al Yasmin' },
+        { '@type': 'AdministrativeArea', name: 'Al Olaya' },
+        { '@type': 'AdministrativeArea', name: 'Al Sahafa' },
+        { '@type': 'AdministrativeArea', name: 'Al Rawdah' },
+        { '@type': 'AdministrativeArea', name: 'Al Nakheel' },
+        { '@type': 'AdministrativeArea', name: 'Hittin' },
+        { '@type': 'AdministrativeArea', name: 'Al Aqiq' },
+        { '@type': 'AdministrativeArea', name: 'Al Hamra' },
       ],
       serviceType: [
         'House Moving Services',
@@ -200,11 +198,6 @@ export function updateSEO({
         'Villa Moving Services',
         'Apartment Moving',
         'Dina Moving Trucks',
-        'نقل عفش بالرياض',
-        'شركة نقل اثاث بالرياض',
-        'دينا نقل عفش بالرياض',
-        'فك وتركيب غرف نوم بالرياض',
-        'تغليف اثاث بالبابلز',
       ],
       sameAs: [
         companyInfo.social.facebook,
@@ -229,12 +222,20 @@ export function updateSEO({
     });
   }
 
-  // Optional Page-Specific Schemas (FAQPage, ItemList, etc.)
+  // Optional Page-Specific Schemas (FAQPage, ItemList, Service, etc.)
+  // Clean nested @context to ensure valid JSON-LD graph structure
   if (schema) {
+    const sanitizeSchemaNode = (node) => {
+      if (!node || typeof node !== 'object') return node;
+      const cleanNode = { ...node };
+      delete cleanNode['@context'];
+      return cleanNode;
+    };
+
     if (Array.isArray(schema)) {
-      graphElements.push(...schema);
+      graphElements.push(...schema.map(sanitizeSchemaNode));
     } else {
-      graphElements.push(schema);
+      graphElements.push(sanitizeSchemaNode(schema));
     }
   }
 
