@@ -15,6 +15,7 @@ import {
   ArrowLeft,
   ChevronRight,
   Sparkles,
+  Navigation,
 } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import { getDistrictBySlug, districtsList } from '../data/districtsData';
@@ -55,7 +56,7 @@ export default function DistrictPage() {
     ? `السلام عليكم، أحتاج حجز دينا نقل عفش وفك وتركيب في حي ${district.name.ar} بالرياض.`
     : `Hello Riyadh Movers Experts, I need a moving and packing quote for ${district.name.en} district in Riyadh.`;
 
-  // JSON-LD Schemas: FAQPage
+  // JSON-LD Schemas: FAQPage + LocalService
   const districtFaqSchema = {
     '@type': 'FAQPage',
     mainEntity: district.faqs.map((faq) => ({
@@ -66,6 +67,27 @@ export default function DistrictPage() {
         text: isArabic ? faq.aAr : faq.aEn,
       },
     })),
+  };
+
+  const districtServiceSchema = {
+    '@type': 'Service',
+    '@id': `https://www.riyadhmoversexperts.com/districts/${district.slug}#service`,
+    name: pageH1,
+    description: pageDescription,
+    provider: {
+      '@type': 'MovingCompany',
+      name: 'Riyadh Movers Experts',
+      telephone: companyInfo.phoneRaw || '+966564694614',
+    },
+    areaServed: {
+      '@type': 'AdministrativeArea',
+      name: district.fullName[currentLang],
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: district.coordinates.lat,
+        longitude: district.coordinates.lng,
+      },
+    },
   };
 
   const breadcrumbData = [
@@ -112,7 +134,7 @@ export default function DistrictPage() {
     },
   ];
 
-  // Other nearby districts for cross-linking (Local SEO internal equity)
+  // Adjacent / other districts for cross-linking (Local SEO internal equity)
   const otherDistricts = districtsList
     .filter((d) => d.slug !== district.slug)
     .slice(0, 6);
@@ -123,7 +145,7 @@ export default function DistrictPage() {
         title={pageTitle}
         description={pageDescription}
         image={images.servicesBanner}
-        schema={districtFaqSchema}
+        schema={[districtFaqSchema, districtServiceSchema]}
         breadcrumbs={breadcrumbData}
       />
 
@@ -157,6 +179,13 @@ export default function DistrictPage() {
                 <Sparkles className="w-3.5 h-3.5 text-brand-gold" />
                 <span>{isArabic ? 'خدمة متواصلة 24 ساعة' : 'Available 24/7'}</span>
               </span>
+
+              {district.postalCode && (
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-slate-800 text-slate-300 border border-slate-700">
+                  <Navigation className="w-3 h-3 text-brand-gold" />
+                  <span>{isArabic ? `الرمز البريدي: ${district.postalCode}` : `Postal Code: ${district.postalCode}`}</span>
+                </span>
+              )}
             </div>
 
             {/* H1 Title */}
@@ -187,6 +216,49 @@ export default function DistrictPage() {
             </div>
           </div>
         </div>
+
+        {/* LOCAL LANDMARKS & COVERAGE CALLOUT */}
+        {district.landmarks && (
+          <div className="bg-amber-50/80 border border-amber-200/90 rounded-3xl p-6 sm:p-8 mb-16 shadow-xs">
+            <div className="flex items-center gap-2.5 mb-3">
+              <MapPin className="w-5 h-5 text-brand-gold-dark shrink-0" />
+              <h2 className="text-lg sm:text-xl font-bold text-slate-900">
+                {isArabic
+                  ? `المعالم والشوارع الرئيسية المشمولة بالخدمة في حي ${districtName}`
+                  : `Key Landmarks & Corridors Served in ${districtName}`}
+              </h2>
+            </div>
+            <p className="text-xs sm:text-sm text-slate-600 mb-4">
+              {isArabic
+                ? `تتمركز شاحنات دينا نقل الأثاث بالقرب من المعالم والشوارع الحيوية التالية لسرعة التلبية والانتقال:`
+                : `Our moving teams and Dina trucks operate continuously around the following prime corridors and neighborhood landmarks:`}
+            </p>
+            <div className="flex flex-wrap gap-2.5 mb-5">
+              {district.landmarks[currentLang].map((lm, i) => (
+                <span
+                  key={i}
+                  className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-semibold bg-white border border-amber-200 text-slate-800 shadow-2xs"
+                >
+                  <span className="text-brand-gold-dark">📍</span>
+                  <span>{lm}</span>
+                </span>
+              ))}
+            </div>
+
+            {district.highlights && (
+              <div className="pt-3 border-t border-amber-200/60">
+                <ul className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs sm:text-sm text-slate-700">
+                  {district.highlights[currentLang].map((hl, i) => (
+                    <li key={i} className="flex items-start gap-2 bg-white/70 p-3 rounded-xl border border-amber-100">
+                      <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                      <span>{hl}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
 
         {/* SECTION 1: DISTRICT FEATURES / FAST DISPATCH */}
         <section className="mb-16">
@@ -306,7 +378,7 @@ export default function DistrictPage() {
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
             <div>
               <h3 className="text-lg font-bold text-slate-900">
-                {isArabic ? 'أحياء أخرى نخدمها في الرياض' : 'Other Riyadh Districts We Serve'}
+                {isArabic ? 'أحياء مجاورة نخدمها في الرياض' : 'Adjacent & Nearby Riyadh Districts We Serve'}
               </h3>
               <p className="text-xs text-slate-500 mt-1">
                 {isArabic

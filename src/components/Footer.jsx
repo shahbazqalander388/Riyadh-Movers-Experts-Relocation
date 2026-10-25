@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Clock, Truck, ArrowUpRight } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Truck, ArrowUpRight, ShieldCheck } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import { companyInfo } from '../data/companyInfo';
 import { districtsList } from '../data/districtsData';
@@ -18,8 +18,7 @@ export default function Footer() {
     { to: getLocalizedPath('/contact'), label: t.nav.contact },
   ];
 
-  const serviceLinks = t.services.items.slice(0, 5);
-  const districtLinks = districtsList.slice(0, 6);
+  const serviceLinks = t.services.items;
 
   return (
     <footer className="bg-brand-navy-dark text-slate-300 border-t border-slate-800">
@@ -122,8 +121,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Services List (2 cols) */}
-          <div className="lg:col-span-2 space-y-3">
+          {/* Services List (3 cols) */}
+          <div className="lg:col-span-3 space-y-3">
             <h4 className="text-white font-bold text-sm tracking-wide uppercase">
               {t.footer.ourServices}
             </h4>
@@ -142,36 +141,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Riyadh Districts Links (2 cols) - High Impact for Local SEO */}
-          <div className="lg:col-span-2 space-y-3">
-            <h4 className="text-white font-bold text-sm tracking-wide uppercase">
-              {isArabic ? 'أحياء الرياض' : 'Riyadh Districts'}
-            </h4>
-            <ul className="space-y-2 text-sm">
-              {districtLinks.map((d) => (
-                <li key={d.slug}>
-                  <Link
-                    to={`${getLocalizedPath('/districts')}/${d.slug}`}
-                    className="hover:text-brand-gold transition-colors flex items-center justify-between group text-xs sm:text-sm"
-                  >
-                    <span>{isArabic ? `حي ${d.name.ar}` : `${d.name.en} Movers`}</span>
-                    <ArrowUpRight className="w-3 h-3 text-slate-500 group-hover:text-brand-gold transition-colors opacity-0 group-hover:opacity-100 shrink-0" />
-                  </Link>
-                </li>
-              ))}
-              <li className="pt-1">
-                <Link
-                  to={getLocalizedPath('/districts')}
-                  className="text-brand-gold-light hover:text-brand-gold text-xs font-semibold inline-block"
-                >
-                  {isArabic ? 'جميع الأحياء ←' : 'All Districts →'}
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact Details (3 cols) */}
-          <div className="lg:col-span-3 space-y-3">
+          {/* Contact Details (4 cols) */}
+          <div className="lg:col-span-4 space-y-3">
             <h4 className="text-white font-bold text-sm tracking-wide uppercase">
               {t.footer.contactInfo}
             </h4>
@@ -192,7 +163,7 @@ export default function Footer() {
                 <Phone className="w-4 h-4 text-brand-gold shrink-0" />
                 <a
                   href={companyInfo.phoneCallUrl}
-                  className="hover:text-white transition-colors"
+                  className="hover:text-white transition-colors font-semibold"
                   dir="ltr"
                 >
                   {companyInfo.phone}
@@ -218,10 +189,49 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+
+        {/* DEDICATED LOCAL SEO DISTRICTS NAVIGATION BAR */}
+        <div className="mt-12 pt-8 border-t border-slate-800">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+            <div>
+              <span className="text-xs font-bold text-brand-gold uppercase tracking-wider block">
+                {isArabic ? 'التغطية الميدانية في الرياض' : 'Local SEO District Hub'}
+              </span>
+              <h5 className="text-sm font-bold text-white mt-1">
+                {isArabic
+                  ? 'خدمات دينا ونقل وتغليف الأثاث في كافة أحياء الرياض'
+                  : 'Movers & Packers Coverage Across All Riyadh Districts'}
+              </h5>
+            </div>
+            <Link
+              to={getLocalizedPath('/districts')}
+              className="text-xs font-semibold text-brand-gold-light hover:text-white transition-colors inline-flex items-center gap-1"
+            >
+              <span>{isArabic ? 'دليل كافة الأحياء ←' : 'View All Districts Hub →'}</span>
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2.5 text-xs">
+            {districtsList.map((d) => (
+              <Link
+                key={d.slug}
+                to={`${getLocalizedPath('/districts')}/${d.slug}`}
+                className="bg-slate-850 hover:bg-slate-800 border border-slate-800 hover:border-brand-gold/40 rounded-lg p-2.5 text-slate-300 hover:text-white transition-all flex flex-col justify-between"
+              >
+                <span className="font-semibold truncate">
+                  {isArabic ? `نقل عفش حي ${d.name.ar}` : `Movers in ${d.name.en}`}
+                </span>
+                <span className="text-[10px] text-slate-500 mt-1">
+                  {d.zone[currentLang]} • {d.dispatchTime[currentLang]}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
       </div>
 
       {/* Bottom Bar: Copyright */}
-      <div className="border-t border-slate-800/80 bg-black/20 py-6">
+      <div className="border-t border-slate-800/80 bg-black/30 py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <p>{t.footer.copyright}</p>
           <div className="flex items-center gap-4">
@@ -231,7 +241,7 @@ export default function Footer() {
               href={companyInfo.whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-brand-gold-light hover:underline"
+              className="text-brand-gold-light hover:underline font-medium"
             >
               +966 56 469 4614
             </a>

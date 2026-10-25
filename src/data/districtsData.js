@@ -9,11 +9,28 @@ export const districtsList = [
     name: { en: 'Al Malqa', ar: 'الملقا' },
     fullName: { en: 'Al Malqa District, Riyadh', ar: 'حي الملقا بالرياض' },
     zone: { en: 'North Riyadh', ar: 'شمال الرياض' },
+    postalCode: '13521',
     coordinates: { lat: 24.8115, lng: 46.6083 },
-    dispatchTime: { en: '25-35 minutes', ar: '25 إلى 35 دقيقة' },
+    dispatchTime: { en: '20-30 minutes', ar: '20 إلى 30 دقيقة' },
     nearbyRoads: {
       en: ['King Salman Road', 'Anas Ibn Malik Road', 'King Fahd Road'],
       ar: ['طريق الملك سلمان', 'طريق أنس بن مالك', 'طريق الملك فهد'],
+    },
+    landmarks: {
+      en: ['Al Malqa Walkway', 'King Salman Road Commercial Corridor', 'Anas Ibn Malik Commercial Strip', 'Al Malqa Square'],
+      ar: ['ممشى حي الملقا', 'محور طريق الملك سلمان التجاري', 'شارع أنس بن مالك التجاري', 'ميدان الملقا'],
+    },
+    highlights: {
+      en: [
+        'Dedicated Dina moving trucks stationed at Anas Ibn Malik & King Salman Road',
+        'Specialized in luxury villa, duplex, and designer apartment relocations',
+        'Professional carpenters for Italian, Turkish, and IKEA bedroom furniture',
+      ],
+      ar: [
+        'دينا نقل عفش مجهزة متمركزة عند تقاطع طريق أنس بن مالك وطريق الملك سلمان',
+        'خبرة متخصصة في نقل الفلل الفاخرة والدوبلكسات والشقق المودرن',
+        'نجارون محترفون لفك وتركيب غرف النوم الإيطالية والتركية وأثاث ايكيا',
+      ],
     },
     seoTitle: {
       en: 'Movers and Packers in Al Malqa, Riyadh | Fast & Safe Moving - Riyadh Movers Experts',
@@ -34,9 +51,9 @@ export const districtsList = [
     faqs: [
       {
         qEn: 'How quickly can a moving truck (Dina) arrive in Al Malqa?',
-        aEn: 'Our Dina moving trucks are stationed near King Salman Road and Anas Ibn Malik Road, allowing our crew to arrive at your Al Malqa villa or apartment within 25 to 35 minutes.',
+        aEn: 'Our Dina moving trucks are stationed near King Salman Road and Anas Ibn Malik Road, allowing our crew to arrive at your Al Malqa villa or apartment within 20 to 30 minutes.',
         qAr: 'كم يستغرق وصول دينا نقل العفش إلى حي الملقا؟',
-        aAr: 'تتمركز شاحنات دينا نقل العفش بالقرب من طريق الملك سلمان وطريق أنس بن مالك، مما يمكن فريقنا من الوصول إلى فيلتك أو شقتك في حي الملقا خلال 25 إلى 35 دقيقة فقط.',
+        aAr: 'تتمركز شاحنات دينا نقل العفش بالقرب من طريق الملك سلمان وطريق أنس بن مالك، مما يمكن فريقنا من الوصول إلى فيلتك أو شقتك في حي الملقا خلال 20 إلى 30 دقيقة فقط.',
       },
       {
         qEn: 'Do you provide villa moving and furniture assembly in Al Malqa?',
@@ -57,11 +74,28 @@ export const districtsList = [
     name: { en: 'Al Narjis', ar: 'النرجس' },
     fullName: { en: 'Al Narjis District, Riyadh', ar: 'حي النرجس بالرياض' },
     zone: { en: 'North Riyadh', ar: 'شمال الرياض' },
+    postalCode: '13324',
     coordinates: { lat: 24.8450, lng: 46.6780 },
-    dispatchTime: { en: '25-35 minutes', ar: '25 إلى 35 دقيقة' },
+    dispatchTime: { en: '20-30 minutes', ar: '20 إلى 30 دقيقة' },
     nearbyRoads: {
       en: ['Abu Bakr Al Siddiq Road', 'King Salman Road', 'Othman Ibn Affan Road'],
       ar: ['طريق أبي بكر الصديق', 'طريق الملك سلمان', 'طريق عثمان بن عفان'],
+    },
+    landmarks: {
+      en: ['Abu Bakr Al Siddiq Plaza', 'Prince Faisal Bin Bandar Park', 'Othman Ibn Affan Commercial Axis', 'Al Narjis Community Center'],
+      ar: ['بلازا طريق أبي بكر الصديق', 'حديقة الأمير فيصل بن بندر', 'المحور التجاري بطريق عثمان بن عفان', 'مركز حي النرجس'],
+    },
+    highlights: {
+      en: [
+        'Fast response across all Al Narjis phases and newly developed residential compounds',
+        'Specialized padding and floor protection during move-in to new villas',
+        'Direct dispatch from Abu Bakr Al Siddiq Road for emergency same-day moves',
+      ],
+      ar: [
+        'تغطية سريعة لكافة مربعات حي النرجس والمجمعات السكنية الجديدة',
+        'حماية فائقة للأرضيات والباركيه والدهانات أثناء نقل الفلل الجديدة',
+        'انطلاق مباشر من طريق أبي بكر الصديق لخدمات النقل الفوري بنفس اليوم',
+      ],
     },
     seoTitle: {
       en: 'Movers and Packers in Al Narjis, Riyadh | Fast & Safe Moving - Riyadh Movers Experts',
@@ -99,11 +133,28 @@ export const districtsList = [
     name: { en: 'Al Yasmin', ar: 'الياسمين' },
     fullName: { en: 'Al Yasmin District, Riyadh', ar: 'حي الياسمين بالرياض' },
     zone: { en: 'North Riyadh', ar: 'شمال الرياض' },
+    postalCode: '13325',
     coordinates: { lat: 24.8180, lng: 46.6450 },
     dispatchTime: { en: '20-30 minutes', ar: '20 إلى 30 دقيقة' },
     nearbyRoads: {
       en: ['Anas Ibn Malik Road', 'King Abdulaziz Road', 'Al Thumamah Road'],
       ar: ['طريق أنس بن مالك', 'طريق الملك عبدالعزيز', 'طريق الثمامة'],
+    },
+    landmarks: {
+      en: ['Al Yasmin Park', 'Al Thumamah Road Commercial Axis', 'King Abdulaziz Commercial Strip', 'Al Yasmin Plaza'],
+      ar: ['حديقة الياسمين', 'المحور التجاري بطريق الثمامة', 'شارع الملك عبدالعزيز التجاري', 'الياسمين بلازا'],
+    },
+    highlights: {
+      en: [
+        'Rapid arrival within 20-30 minutes via King Abdulaziz Road',
+        'Expert disassembly of modular IKEA and custom walk-in closets',
+        'Multi-layer bubble wrap protection for TVs, chandeliers, and marble tops',
+      ],
+      ar: [
+        'وصول فوري خلال 20-30 دقيقة عبر طريق الملك عبدالعزيز وطريق الثمامة',
+        'فك وتركيب احترافي لخزائن الملابس وايكيا وغرف النوم المودرن',
+        'تغليف بابلز متعدد الطبقات للشاشات الكبيرة والتحف والرخام',
+      ],
     },
     seoTitle: {
       en: 'Movers and Packers in Al Yasmin, Riyadh | Fast & Safe Moving - Riyadh Movers Experts',
@@ -128,6 +179,12 @@ export const districtsList = [
         qAr: 'هل يقوم نجاروكم بفك وتركيب غرف نوم ايكيا بحي الياسمين؟',
         aAr: 'نعم، يمتلك نجارونا مهارة عالية في فك وتركيب أثاث ايكيا والغرف التركية والإيطالية المعقدة مع ضمان سلامة كل قطعة ومفصلة.',
       },
+      {
+        qEn: 'Do you offer packing boxes and bubble wrap in Al Yasmin?',
+        aEn: 'Yes, we supply heavy-duty 5-layer moving cartons, high-density bubble wrap rolls, stretch film, and packing tape directly to your doorstep in Al Yasmin.',
+        qAr: 'هل توفرون كراتين ورولات بابلز للتغليف في حي الياسمين؟',
+        aAr: 'نعم، نوفر كراتين مقواة 5 طبقات ورولات بابلز هوائي ونايلون ستريتش سميك لحماية كافة المقتنيات الزجاجية والملابس والأجهزة.',
+      },
     ],
   },
   {
@@ -135,11 +192,28 @@ export const districtsList = [
     name: { en: 'Al Olaya', ar: 'العليا' },
     fullName: { en: 'Al Olaya District, Riyadh', ar: 'حي العليا بالرياض' },
     zone: { en: 'Central Riyadh', ar: 'وسط الرياض' },
+    postalCode: '12211',
     coordinates: { lat: 24.7136, lng: 46.6753 },
     dispatchTime: { en: '20-30 minutes', ar: '20 إلى 30 دقيقة' },
     nearbyRoads: {
       en: ['King Fahd Road', 'Olaya Street', 'Makkah Al Mukarramah Road'],
       ar: ['طريق الملك فهد', 'شارع العليا العام', 'طريق مكة المكرمة'],
+    },
+    landmarks: {
+      en: ['Kingdom Centre Tower', 'Al Faisaliah Tower', 'Olaya Towers', 'Centria Mall'],
+      ar: ['برج المملكة', 'برج الفيصلية', 'أبراج العليا', 'سنتريا مول'],
+    },
+    highlights: {
+      en: [
+        'Specialized in corporate office relocation and commercial tower logistics',
+        'After-hours and weekend moving options to eliminate business downtime',
+        'Secure transport for IT hardware, server racks, workstations, and archives',
+      ],
+      ar: [
+        'تخصص رائد في نقل المكاتب والشركات والأبراج التجارية على طريق الملك فهد',
+        'خيارات نقل مرنة مسائية وفي العطلات لضمان عدم توقف أعمال الشركات',
+        'تغليف آمن لأجهزة الكمبيوتر والسيرفرات والمكاتب والأرشيف الورقي',
+      ],
     },
     seoTitle: {
       en: 'Movers and Packers in Al Olaya, Riyadh | Fast & Safe Moving - Riyadh Movers Experts',
@@ -164,6 +238,12 @@ export const districtsList = [
         qAr: 'هل توفرون نقل مكاتب وشركات في الفترات المسائية وعطلات نهاية الأسبوع بالعليا؟',
         aAr: 'نعم، نوفر مواعيد مرنة بعد ساعات العمل الرسمية وفي عطلة نهاية الأسبوع لنقل المكاتب في أبراج العليا وطريق الملك فهد لضمان استمرار أعمالك بدون انقطاع.',
       },
+      {
+        qEn: 'Do you handle commercial elevators and building management permits in Al Olaya?',
+        aEn: 'Yes, our team is accustomed to coordination with tower building management for elevator reservation and protection protocols.',
+        qAr: 'هل تنسقون مع إدارة الأبراج لتصاريح استخدام المصاعد بحي العليا؟',
+        aAr: 'نعم، فريقنا متمرس في استيفاء اشتراطات إدارات المباني وتأمين المصاعد الخدمية لضمان سير النقل بكل سلاسة.',
+      },
     ],
   },
   {
@@ -171,11 +251,28 @@ export const districtsList = [
     name: { en: 'Al Sahafa', ar: 'الصحافة' },
     fullName: { en: 'Al Sahafa District, Riyadh', ar: 'حي الصحافة بالرياض' },
     zone: { en: 'North Riyadh', ar: 'شمال الرياض' },
+    postalCode: '13315',
     coordinates: { lat: 24.7920, lng: 46.6350 },
     dispatchTime: { en: '20-30 minutes', ar: '20 إلى 30 دقيقة' },
     nearbyRoads: {
       en: ['King Fahd Road', 'Al Olaya Street', 'Imam Saud Ibn Faisal Road'],
       ar: ['طريق الملك فهد', 'شارع العليا', 'طريق الإمام سعود بن فيصل'],
+    },
+    landmarks: {
+      en: ['Saudi Press Agency (SPA)', 'Al Sahafa Public Park', 'Imam Saud Ibn Faisal Commercial Strip', 'Al Sahafa Hospital Area'],
+      ar: ['وكالة الأنباء السعودية (واس)', 'حديقة الصحافة العامة', 'شارع الإمام سعود بن فيصل التجاري', 'محيط مستشفى الصحافة'],
+    },
+    highlights: {
+      en: [
+        'Prime positioning adjacent to King Fahd Road for lightning-fast truck arrivals',
+        'Comprehensive residential packing, moving, and reinstallation',
+        'Budget-friendly rates with zero hidden fees',
+      ],
+      ar: [
+        'موقع استراتيجي بالقرب من طريق الملك فهد لسرعة وصول الدينا',
+        'خدمات متكاملة تشمل الفك والتغليف والنقل والتركيب في مكان واحد',
+        'أسعار تنافسية واضحة ومدروسة بدون أي تكاليف إضافية مخفية',
+      ],
     },
     seoTitle: {
       en: 'Movers and Packers in Al Sahafa, Riyadh | Fast & Safe Moving - Riyadh Movers Experts',
@@ -207,11 +304,28 @@ export const districtsList = [
     name: { en: 'Al Rawdah', ar: 'الروضة' },
     fullName: { en: 'Al Rawdah District, Riyadh', ar: 'حي الروضة بالرياض' },
     zone: { en: 'East Riyadh', ar: 'شرق الرياض' },
+    postalCode: '13211',
     coordinates: { lat: 24.7610, lng: 46.7720 },
     dispatchTime: { en: '20-30 minutes', ar: '20 إلى 30 دقيقة' },
     nearbyRoads: {
       en: ['Khurais Road', 'Eastern Ring Road', 'Hafsa Bint Umar Road'],
       ar: ['طريق خريص', 'الدائري الشرقي', 'شارع حفصة بنت عمر'],
+    },
+    landmarks: {
+      en: ['Al Rawdah Park', 'Khurais Mall', 'Hafsa Bint Umar Axis', 'Al Rawdah Plaza'],
+      ar: ['حديقة الروضة', 'خريص مول', 'شارع حفصة بنت عمر التجاري', 'الروضة بلازا'],
+    },
+    highlights: {
+      en: [
+        'The #1 moving provider serving families across East Riyadh neighborhoods',
+        'Large fleet of enclosed Dina trucks protected from heat and road dust',
+        'Complete packing materials supplied on-site including double-wall cartons',
+      ],
+      ar: [
+        'الخيار الأول والموثوق للعائلات السكنية في كافة مربعات شرق الرياض',
+        'أسطول شاحنات دينا مغلقة ومجهزة بأحزمة ربط لحماية العفش من الغبار',
+        'توفير مواد التغليف المتكاملة من كراتين مقواة وبابلز في موقع العميل',
+      ],
     },
     seoTitle: {
       en: 'Movers and Packers in Al Rawdah, Riyadh | Fast & Safe Moving - Riyadh Movers Experts',
@@ -243,11 +357,28 @@ export const districtsList = [
     name: { en: 'Al Nakheel', ar: 'النخيل' },
     fullName: { en: 'Al Nakheel District, Riyadh', ar: 'حي النخيل بالرياض' },
     zone: { en: 'North-West Riyadh', ar: 'شمال غرب الرياض' },
+    postalCode: '12382',
     coordinates: { lat: 24.7550, lng: 46.6210 },
-    dispatchTime: { en: '25-35 minutes', ar: '25 إلى 35 دقيقة' },
+    dispatchTime: { en: '20-30 minutes', ar: '20 إلى 30 دقيقة' },
     nearbyRoads: {
       en: ['Northern Ring Road', 'King Khalid Road', 'Imam Saud Ibn Abdulaziz Road'],
       ar: ['الطريق الدائري الشمالي', 'طريق الملك خالد', 'طريق الإمام سعود بن عبدالعزيز'],
+    },
+    landmarks: {
+      en: ['Al Nakheel Mall Area', 'King Saud University Campus', 'Northern Ring Intersection', 'Al Nakheel Walkway'],
+      ar: ['محيط النخيل مول', 'محور جامعة الملك سعود', 'تقاطع الطريق الدائري الشمالي', 'ممشى النخيل'],
+    },
+    highlights: {
+      en: [
+        'Bespoke white-glove moving for high-end villas and palace residences',
+        'Specialized crating and bubble protection for chandeliers and imported antiques',
+        'Experienced carpenters for luxury custom dressing rooms and dining sets',
+      ],
+      ar: [
+        'خدمات نقل ملكية فاخرة (White-glove) للفلل الراقية والقصور',
+        'صناديق حماية وتغليف بابلز خاص للثريات الكريستال والتحف الثمينة',
+        'نجارون خبراء في غرف الملابس الفاخرة وطاولات الطعام الرخامية',
+      ],
     },
     seoTitle: {
       en: 'Movers and Packers in Al Nakheel, Riyadh | Fast & Safe Moving - Riyadh Movers Experts',
@@ -279,11 +410,28 @@ export const districtsList = [
     name: { en: 'Hittin', ar: 'حطين' },
     fullName: { en: 'Hittin District, Riyadh', ar: 'حي حطين بالرياض' },
     zone: { en: 'North Riyadh', ar: 'شمال الرياض' },
+    postalCode: '13512',
     coordinates: { lat: 24.7680, lng: 46.5980 },
-    dispatchTime: { en: '25-35 minutes', ar: '25 إلى 35 دقيقة' },
+    dispatchTime: { en: '20-30 minutes', ar: '20 إلى 30 دقيقة' },
     nearbyRoads: {
       en: ['Northern Ring Road', 'Prince Turki Ibn Abdulaziz Al Awwal Road', 'King Khalid Road'],
       ar: ['الطريق الدائري الشمالي', 'طريق الأمير تركي بن عبدالعزيز الأول', 'طريق الملك خالد'],
+    },
+    landmarks: {
+      en: ['Riyadh Boulevard City', 'Hittin Walkway', 'Prince Turki Al Awwal Boulevard', 'Hittin Plaza'],
+      ar: ['بوليفارد رياض سيتي', 'ممشى حطين', 'بوليفارد الأمير تركي الأول', 'حطين بلازا'],
+    },
+    highlights: {
+      en: [
+        'Dedicated crew trained in modern, minimalist, and smart-home interior layouts',
+        'Discrete moving trucks parked and loaded in adherence to neighborhood guidelines',
+        'Fast access from Prince Turki Al Awwal Road and Northern Ring Road',
+      ],
+      ar: [
+        'فريق مدرب على التعامل مع ديكورات المنازل الذكية والمودرن',
+        'دينا نقل عفش نظيفة تلتزم بضوابط الهدوء والنظافة في المجمعات السكنية',
+        'وصول فوري وسهل عبر طريق الأمير تركي الأول والدائري الشمالي',
+      ],
     },
     seoTitle: {
       en: 'Movers and Packers in Hittin, Riyadh | Fast & Safe Moving - Riyadh Movers Experts',
@@ -315,11 +463,28 @@ export const districtsList = [
     name: { en: 'Al Aqiq', ar: 'العقيق' },
     fullName: { en: 'Al Aqiq District, Riyadh', ar: 'حي العقيق بالرياض' },
     zone: { en: 'North Riyadh', ar: 'شمال الرياض' },
+    postalCode: '13511',
     coordinates: { lat: 24.7780, lng: 46.6250 },
     dispatchTime: { en: '20-30 minutes', ar: '20 إلى 30 دقيقة' },
     nearbyRoads: {
       en: ['King Fahd Road', 'Northern Ring Road', 'Al Sayel Street'],
       ar: ['طريق الملك فهد', 'الطريق الدائري الشمالي', 'شارع السايل'],
+    },
+    landmarks: {
+      en: ['King Abdullah Financial District (KAFD)', 'Al Aqiq Boulevard', 'Northern Ring Interchange', 'Al Aqiq Square'],
+      ar: ['مركز الملك عبدالله المالي (كافد)', 'بوليفارد العقيق', 'تقاطع الدائري الشمالي وطريق الملك فهد', 'ميدان العقيق'],
+    },
+    highlights: {
+      en: [
+        'Strategic location directly adjacent to KAFD financial hub',
+        'Specialized in tower elevator moves and high-rise apartment transfers',
+        'Instant quotes and 24/7 round-the-clock moving truck dispatch',
+      ],
+      ar: [
+        'موقع استراتيجي ملاصق لمركز الملك عبدالله المالي (كافد)',
+        'خبرة واسعة في نقل الشقق بالأبراج واستخدام مصاعد الخدمات بأمان',
+        'تسعير فوري وانطلاق سريع لشاحنات الدينا على مدار 24 ساعة',
+      ],
     },
     seoTitle: {
       en: 'Movers and Packers in Al Aqiq, Riyadh | Fast & Safe Moving - Riyadh Movers Experts',
@@ -351,11 +516,28 @@ export const districtsList = [
     name: { en: 'Al Hamra', ar: 'الحمراء' },
     fullName: { en: 'Al Hamra District, Riyadh', ar: 'حي الحمراء بالرياض' },
     zone: { en: 'East Riyadh', ar: 'شرق الرياض' },
+    postalCode: '13214',
     coordinates: { lat: 24.7860, lng: 46.7550 },
     dispatchTime: { en: '20-30 minutes', ar: '20 إلى 30 دقيقة' },
     nearbyRoads: {
       en: ['Eastern Ring Road', 'King Abdullah Road', 'Imam Abdullah Ibn Saud Ibn Abdulaziz Road'],
       ar: ['الدائري الشرقي', 'طريق الملك عبدالله', 'طريق الإمام عبدالله بن سعود بن عبدالعزيز'],
+    },
+    landmarks: {
+      en: ['Al Hamra Oasis', 'Al Hamra Mall', 'Al Hamra Walkway Park', 'King Abdullah Road Commercial Strip'],
+      ar: ['واحة الحمراء', 'الحمراء مول', 'حديقة وممشى الحمراء', 'شارع الملك عبدالله التجاري'],
+    },
+    highlights: {
+      en: [
+        'Immediate coverage across Eastern Ring Road and King Abdullah Road',
+        'Expert moving crews for family villas, duplexes, and flats',
+        'Full furniture packing with air-bubble film and heavy cardboard',
+      ],
+      ar: [
+        'تغطية فورية وسريعة عبر الدائري الشرقي وطريق الملك عبدالله',
+        'طواقم نقل متخصصة للفلل العائلية والشقق والدوبلكسات',
+        'تغليف شامل للأثاث برولات الفقاعات الهوائية والكرتون المقوى',
+      ],
     },
     seoTitle: {
       en: 'Movers and Packers in Al Hamra, Riyadh | Fast & Safe Moving - Riyadh Movers Experts',

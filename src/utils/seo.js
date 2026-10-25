@@ -28,7 +28,13 @@ export function updateSEO({
 
   // Basic Meta
   setMeta('description', 'name', description);
-  setMeta('robots', 'name', noindex ? 'noindex, nofollow' : 'index, follow');
+  setMeta(
+    'robots',
+    'name',
+    noindex
+      ? 'noindex, nofollow'
+      : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'
+  );
 
   // Remove deprecated/spammy meta keywords if present in document head
   const existingKeywordsEl = document.querySelector('meta[name="keywords"]');
@@ -60,6 +66,8 @@ export function updateSEO({
   setMeta('og:description', 'property', description);
   setMeta('og:url', 'property', currentCanonicalUrl);
   setMeta('og:image', 'property', fullImage);
+  setMeta('og:image:width', 'property', '1200');
+  setMeta('og:image:height', 'property', '630');
   setMeta('og:type', 'property', 'website');
   setMeta('og:site_name', 'property', 'Riyadh Movers Experts');
   setMeta('og:locale', 'property', lang === 'ar' ? 'ar_SA' : 'en_SA');
@@ -114,9 +122,19 @@ export function updateSEO({
       '@id': `${SITE_URL}/#website`,
       url: `${SITE_URL}/`,
       name: 'Riyadh Movers Experts',
-      alternateName: 'خبراء نقل وتغليف الأثاث بالرياض',
-      description: 'Professional movers, packers, furniture and relocation services in Riyadh, Saudi Arabia.',
+      alternateName: [
+        'خبراء نقل وتغليف الأثاث بالرياض',
+        'شركة خبراء الرياض لنقل العفش',
+        'Riyadh Movers & Packers',
+      ],
+      description:
+        'Professional movers, packers, furniture dismantling and relocation services across Riyadh, Saudi Arabia.',
       inLanguage: ['en-SA', 'ar-SA'],
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: `${SITE_URL}/services?q={search_term_string}`,
+        'query-input': 'required name=search_term_string',
+      },
     },
     {
       '@type': 'Organization',
@@ -125,12 +143,32 @@ export function updateSEO({
       alternateName: 'خبراء نقل وتغليف الأثاث بالرياض',
       url: `${SITE_URL}/`,
       logo: `${SITE_URL}/images/logo.jpg`,
+      sameAs: [
+        companyInfo.social.facebook,
+        companyInfo.social.tiktok,
+        companyInfo.social.instagram,
+        companyInfo.location.mapsUrl,
+      ],
       contactPoint: {
         '@type': 'ContactPoint',
         telephone: companyInfo.phoneRaw || '+966564694614',
         contactType: 'customer service',
         areaServed: 'SA',
         availableLanguage: ['Arabic', 'English'],
+        hoursAvailable: {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: [
+            'Monday',
+            'Tuesday',
+            'Wednesday',
+            'Thursday',
+            'Friday',
+            'Saturday',
+            'Sunday',
+          ],
+          opens: '00:00',
+          closes: '23:59',
+        },
       },
     },
     {
@@ -145,13 +183,14 @@ export function updateSEO({
       email: companyInfo.email,
       priceRange: '$$',
       currenciesAccepted: 'SAR',
-      paymentAccepted: 'Cash, Bank Transfer, Mada',
+      paymentAccepted: 'Cash, Bank Transfer, Mada, Visa, Mastercard',
       address: {
         '@type': 'PostalAddress',
+        streetAddress: 'King Fahd Road, Riyadh',
         addressLocality: 'Riyadh',
         addressRegion: 'Riyadh Province',
+        postalCode: '11564',
         addressCountry: 'SA',
-        streetAddress: 'Riyadh, Saudi Arabia',
       },
       geo: {
         '@type': 'GeoCoordinates',
@@ -198,7 +237,77 @@ export function updateSEO({
         'Villa Moving Services',
         'Apartment Moving',
         'Dina Moving Trucks',
+        'Commercial Relocation Services',
+        'Fragile Item & Chandelier Packing',
+        'IKEA Bedroom Furniture Assembly',
+        'Storage & Moving Logistics',
+        'نقل عفش بالرياض',
+        'دينا نقل عفش بالرياض',
+        'شركة نقل اثاث بالرياض',
+        'فك وتركيب غرف نوم بالرياض',
+        'تغليف اثاث بابلز وكرتون',
+        'نقل فلل وقصور بالرياض',
+        'نقل مكاتب وشركات بالرياض',
+        'شاحنات دينا مجهزة 24 ساعة',
+        'نقل شقق سكنية بالرياض',
+        'عمالة نقل عفش مدربة',
       ],
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Relocation & Moving Services in Riyadh',
+        itemListElement: [
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'House & Villa Moving Services',
+              url: `${SITE_URL}/services/house-moving`,
+              description:
+                'Complete residential relocation with enclosed Dina trucks and room-by-room setup.',
+            },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'Furniture Dismantling & Assembly',
+              url: `${SITE_URL}/services/furniture-moving`,
+              description:
+                'Certified carpenters for IKEA, Italian, and custom bedroom sets and kitchens.',
+            },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'Multi-layer Bubble Wrap & Packing',
+              url: `${SITE_URL}/services/packing-and-moving`,
+              description:
+                'Protective air bubble wrap, heavy-duty cartons, and stretch film for fragile items.',
+            },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'Commercial & Office Relocation',
+              url: `${SITE_URL}/services/office-moving`,
+              description:
+                'After-hours and weekend office shifting with minimal business downtime.',
+            },
+          },
+          {
+            '@type': 'Offer',
+            itemOffered: {
+              '@type': 'Service',
+              name: 'Fast Dina Moving Trucks Dispatch',
+              url: `${SITE_URL}/services/local-moving`,
+              description:
+                'Enclosed, padded Dina trucks dispatched across all Riyadh districts within 20-30 minutes.',
+            },
+          },
+        ],
+      },
       sameAs: [
         companyInfo.social.facebook,
         companyInfo.social.tiktok,
