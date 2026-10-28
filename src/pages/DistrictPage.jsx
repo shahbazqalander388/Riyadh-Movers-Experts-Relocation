@@ -77,7 +77,7 @@ export default function DistrictPage() {
     provider: {
       '@type': 'MovingCompany',
       name: 'Riyadh Movers Experts',
-      telephone: companyInfo.phoneRaw || '+966564694614',
+      telephone: companyInfo.phoneRaw || '+966538946426',
     },
     areaServed: {
       '@type': 'AdministrativeArea',

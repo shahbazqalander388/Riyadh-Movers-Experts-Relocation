@@ -243,7 +243,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-brand-gold-light hover:underline font-medium"
             >
-              +966 56 469 4614
+              {companyInfo.phone}
             </a>
           </div>
         </div>

@@ -5,7 +5,7 @@ export const DEFAULT_MOVING_COMPANY_SCHEMA = {
   '@type': 'MovingCompany',
   name: 'Riyadh Movers Experts',
   url: 'https://www.riyadhmoversexperts.com/',
-  telephone: '+966 56 469 4614',
+  telephone: '+966 53 894 6426',
   email: 'Khankeratmat453@gmail.com',
   areaServed: 'Riyadh, Saudi Arabia',
   serviceType: [

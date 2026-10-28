@@ -151,7 +151,7 @@ export function updateSEO({
       ],
       contactPoint: {
         '@type': 'ContactPoint',
-        telephone: companyInfo.phoneRaw || '+966564694614',
+        telephone: companyInfo.phoneRaw || '+966538946426',
         contactType: 'customer service',
         areaServed: 'SA',
         availableLanguage: ['Arabic', 'English'],
@@ -179,7 +179,7 @@ export function updateSEO({
       url: `${SITE_URL}/`,
       logo: `${SITE_URL}/images/logo.jpg`,
       image: fullImage,
-      telephone: companyInfo.phoneRaw || '+966564694614',
+      telephone: companyInfo.phoneRaw || '+966538946426',
       email: companyInfo.email,
       priceRange: '$$',
       currenciesAccepted: 'SAR',

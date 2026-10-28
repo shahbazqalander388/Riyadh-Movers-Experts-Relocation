@@ -9,7 +9,7 @@ export default function MobileFloatingCTA() {
     ? 'السلام عليكم، أرغب في الاستفسار وحجز دينا نقل عفش بالرياض.'
     : 'Hello Riyadh Movers Experts, I would like to inquire about moving services in Riyadh.';
 
-  const whatsappLink = `https://wa.me/966564694614?text=${encodeURIComponent(prefilledText)}`;
+  const whatsappLink = `https://wa.me/966538946426?text=${encodeURIComponent(prefilledText)}`;
 
   return (
     <div
@@ -40,7 +40,7 @@ export default function MobileFloatingCTA() {
 
         {/* Call Now Button */}
         <a
-          href="tel:+966564694614"
+          href="tel:+966538946426"
           className="flex items-center justify-center gap-2 bg-brand-navy hover:bg-brand-navy-light text-white py-2.5 px-3 rounded-xl font-bold text-xs sm:text-sm shadow-sm active:scale-[0.98] transition-all"
         >
           <PhoneCall className="w-4 h-4 shrink-0 text-brand-gold" />

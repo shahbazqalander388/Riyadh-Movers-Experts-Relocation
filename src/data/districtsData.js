@@ -37,8 +37,8 @@ export const districtsList = [
       ar: 'شركة نقل عفش حي الملقا بالرياض | دينا وفك وتركيب وتغليف - خبراء الرياض',
     },
     seoDescription: {
-      en: 'Professional movers and packers in Al Malqa, Riyadh. Expert villa and apartment relocation, bedroom dismantling & assembly, bubble wrap packing, and fast Dina moving trucks. Call +966 56 469 4614!',
-      ar: 'أفضل شركة نقل عفش حي الملقا بالرياض. أسطول دينا نقل اثاث مغلقة، فك وتركيب غرف نوم ومطابخ، تغليف بابلز متين، ووصول سريع خلال 30 دقيقة. اتصل الآن: 0564694614.',
+      en: 'Professional movers and packers in Al Malqa, Riyadh. Expert villa and apartment relocation, bedroom dismantling & assembly, bubble wrap packing, and fast Dina moving trucks. Call +966 53 894 6426!',
+      ar: 'أفضل شركة نقل عفش حي الملقا بالرياض. أسطول دينا نقل اثاث مغلقة، فك وتركيب غرف نوم ومطابخ، تغليف بابلز متين، ووصول سريع خلال 30 دقيقة. اتصل الآن: 0538946426.',
     },
     h1: {
       en: 'Movers and Packers in Al Malqa, Riyadh',
@@ -63,9 +63,9 @@ export const districtsList = [
       },
       {
         qEn: 'How do I book a move in Al Malqa via WhatsApp?',
-        aEn: 'Simply message our dispatch coordinator at +966 56 469 4614 with your Al Malqa location and furniture details to get an instant quote and immediate booking.',
+        aEn: 'Simply message our dispatch coordinator at +966 53 894 6426 with your Al Malqa location and furniture details to get an instant quote and immediate booking.',
         qAr: 'كيف يمكنني حجز دينا نقل عفش بحي الملقا عبر الواتساب؟',
-        aAr: 'تواصل معنا مباشرة عبر واتساب على الرقم 0564694614 وأرسل موقعك بحي الملقا وصور الأثاث للحصول على تسعيرة فورية وحجز الموعد المناسب لك.',
+        aAr: 'تواصل معنا مباشرة عبر واتساب على الرقم 0538946426 وأرسل موقعك بحي الملقا وصور الأثاث للحصول على تسعيرة فورية وحجز الموعد المناسب لك.',
       },
     ],
   },
@@ -102,8 +102,8 @@ export const districtsList = [
       ar: 'شركة نقل عفش حي النرجس بالرياض | دينا وفك وتركيب وتغليف - خبراء الرياض',
     },
     seoDescription: {
-      en: 'Top movers and packers in Al Narjis, North Riyadh. Reliable Dina moving trucks, villa shifting, furniture disassembly and reassembly, and bubble wrap packing. Available 24/7: +966 56 469 4614.',
-      ar: 'شركة نقل عفش حي النرجس بالرياض مع دينا مجهزة وفنيين نجارين لفك وتركيب غرف النوم وتغليف الأثاث بالكرتون والبابلز بأفضل الأسعار على مدار 24 ساعة. اتصل: 0564694614.',
+      en: 'Top movers and packers in Al Narjis, North Riyadh. Reliable Dina moving trucks, villa shifting, furniture disassembly and reassembly, and bubble wrap packing. Available 24/7: +966 53 894 6426.',
+      ar: 'شركة نقل عفش حي النرجس بالرياض مع دينا مجهزة وفنيين نجارين لفك وتركيب غرف النوم وتغليف الأثاث بالكرتون والبابلز بأفضل الأسعار على مدار 24 ساعة. اتصل: 0538946426.',
     },
     h1: {
       en: 'Movers and Packers in Al Narjis, Riyadh',
@@ -122,9 +122,9 @@ export const districtsList = [
       },
       {
         qEn: 'What is the pricing for moving in Al Narjis?',
-        aEn: 'Our pricing is upfront and transparent based on items moved and truck loads. Message +966 56 469 4614 on WhatsApp for a quick free quote within 5 minutes.',
+        aEn: 'Our pricing is upfront and transparent based on items moved and truck loads. Message +966 53 894 6426 on WhatsApp for a quick free quote within 5 minutes.',
         qAr: 'ما هي أسعار نقل العفش في حي النرجس؟',
-        aAr: 'أسعارنا مدروسة وشفافة تعتمد على حجم العفش وعدد غرف النوم بدون أي رسوم خفية. راسلنا على واتساب 0564694614 للحصول على تسعيرة فورية مجاناً.',
+        aAr: 'أسعارنا مدروسة وشفافة تعتمد على حجم العفش وعدد غرف النوم بدون أي رسوم خفية. راسلنا على واتساب 0538946426 للحصول على تسعيرة فورية مجاناً.',
       },
     ],
   },
@@ -161,8 +161,8 @@ export const districtsList = [
       ar: 'شركة نقل عفش حي الياسمين بالرياض | دينا وفك وتركيب وتغليف - خبراء الرياض',
     },
     seoDescription: {
-      en: 'Expert movers and packers in Al Yasmin, Riyadh. Dedicated moving trucks, safe packing supplies, IKEA and luxury bedroom furniture assembly. Call +966 56 469 4614 for a free estimate.',
-      ar: 'دينا نقل عفش حي الياسمين بالرياض. فك وتركيب غرف نوم، تغليف بابلز وكرتون عالي الجودة، ونقل فلل ومنازل باحترافية وأمان تام على مدار 24 ساعة. هاتف: 0564694614.',
+      en: 'Expert movers and packers in Al Yasmin, Riyadh. Dedicated moving trucks, safe packing supplies, IKEA and luxury bedroom furniture assembly. Call +966 53 894 6426 for a free estimate.',
+      ar: 'دينا نقل عفش حي الياسمين بالرياض. فك وتركيب غرف نوم، تغليف بابلز وكرتون عالي الجودة، ونقل فلل ومنازل باحترافية وأمان تام على مدار 24 ساعة. هاتف: 0538946426.',
     },
     h1: {
       en: 'Movers and Packers in Al Yasmin, Riyadh',
@@ -220,8 +220,8 @@ export const districtsList = [
       ar: 'شركة نقل عفش حي العليا بالرياض | دينا وفك وتركيب وتغليف - خبراء الرياض',
     },
     seoDescription: {
-      en: 'Office and home movers in Al Olaya, Central Riyadh. Commercial relocation, IT hardware moving, apartment shifting, and packing services. Available 24/7: +966 56 469 4614.',
-      ar: 'أفضل شركة نقل عفش ومكاتب بحي العليا بالرياض. نقل شركات ومؤسسات، شقق سكنية، فك وتركيب مكاتب وغرف نوم وتغليف بابلز بأمان كامل على مدار 24 ساعة. اتصل: 0564694614.',
+      en: 'Office and home movers in Al Olaya, Central Riyadh. Commercial relocation, IT hardware moving, apartment shifting, and packing services. Available 24/7: +966 53 894 6426.',
+      ar: 'أفضل شركة نقل عفش ومكاتب بحي العليا بالرياض. نقل شركات ومؤسسات، شقق سكنية، فك وتركيب مكاتب وغرف نوم وتغليف بابلز بأمان كامل على مدار 24 ساعة. اتصل: 0538946426.',
     },
     h1: {
       en: 'Movers and Packers in Al Olaya, Riyadh',
@@ -279,8 +279,8 @@ export const districtsList = [
       ar: 'شركة نقل عفش حي الصحافة بالرياض | دينا وفك وتركيب وتغليف - خبراء الرياض',
     },
     seoDescription: {
-      en: 'Trusted movers and packers in Al Sahafa, Riyadh. Safe furniture transport, multi-layer bubble wrap, skilled carpenters, and fast Dina truck dispatch. Call +966 56 469 4614.',
-      ar: 'دينا نقل عفش حي الصحافة بالرياض. فك وتركيب غرف نوم، تغليف كراتين وبابلز، ونقل منازل وشقق باحترافية وأرخص الأسعار مع وصول سريع خلال 25 دقيقة. اتصل: 0564694614.',
+      en: 'Trusted movers and packers in Al Sahafa, Riyadh. Safe furniture transport, multi-layer bubble wrap, skilled carpenters, and fast Dina truck dispatch. Call +966 53 894 6426.',
+      ar: 'دينا نقل عفش حي الصحافة بالرياض. فك وتركيب غرف نوم، تغليف كراتين وبابلز، ونقل منازل وشقق باحترافية وأرخص الأسعار مع وصول سريع خلال 25 دقيقة. اتصل: 0538946426.',
     },
     h1: {
       en: 'Movers and Packers in Al Sahafa, Riyadh',
@@ -293,9 +293,9 @@ export const districtsList = [
     faqs: [
       {
         qEn: 'Can I book a same-day move in Al Sahafa?',
-        aEn: 'Yes, we accommodate same-day moving requests across Al Sahafa. Call or WhatsApp +966 56 469 4614 for emergency or immediate moving truck dispatch.',
+        aEn: 'Yes, we accommodate same-day moving requests across Al Sahafa. Call or WhatsApp +966 53 894 6426 for emergency or immediate moving truck dispatch.',
         qAr: 'هل يمكنني حجز نقل عفش في نفس اليوم بحي الصحافة؟',
-        aAr: 'نعم، نوفر دينا نقل عفش فورية للطلبات الطارئة والمستعجلة في نفس اليوم بحي الصحافة. تواصل معنا على 0564694614 وسنصلك سريعاً.',
+        aAr: 'نعم، نوفر دينا نقل عفش فورية للطلبات الطارئة والمستعجلة في نفس اليوم بحي الصحافة. تواصل معنا على 0538946426 وسنصلك سريعاً.',
       },
     ],
   },
@@ -332,8 +332,8 @@ export const districtsList = [
       ar: 'شركة نقل عفش حي الروضة بالرياض | دينا وفك وتركيب وتغليف - خبراء الرياض',
     },
     seoDescription: {
-      en: 'Best movers and packers in Al Rawdah, East Riyadh. Full house shifting, enclosed Dina trucks, bedroom disassembly, bubble packaging, and 24/7 service. Call +966 56 469 4614.',
-      ar: 'شركة نقل اثاث بحي الروضة شرق الرياض. دينا نقل عفش مجهزة، فك وتركيب غرف نوم، كراتين تغليف بابلز، وعمالة مدربة لنقل آمن ومضمون على مدار 24 ساعة. هاتف: 0564694614.',
+      en: 'Best movers and packers in Al Rawdah, East Riyadh. Full house shifting, enclosed Dina trucks, bedroom disassembly, bubble packaging, and 24/7 service. Call +966 53 894 6426.',
+      ar: 'شركة نقل اثاث بحي الروضة شرق الرياض. دينا نقل عفش مجهزة، فك وتركيب غرف نوم، كراتين تغليف بابلز، وعمالة مدربة لنقل آمن ومضمون على مدار 24 ساعة. هاتف: 0538946426.',
     },
     h1: {
       en: 'Movers and Packers in Al Rawdah, Riyadh',
@@ -385,8 +385,8 @@ export const districtsList = [
       ar: 'شركة نقل عفش حي النخيل بالرياض | دينا وفك وتركيب وتغليف - خبراء الرياض',
     },
     seoDescription: {
-      en: 'Professional movers in Al Nakheel, Riyadh. Specializing in luxury villa moves, marble and chandelier protection, furniture assembly, and clean Dina trucks. Call +966 56 469 4614.',
-      ar: 'شركة نقل عفش حي النخيل بالرياض متخصصة في نقل الفلل والقصور والأثاث الفاخر مع حماية الرخام والتحف وفك وتركيب غرف النوم وتغليف بابلز فاخر. اتصل الآن: 0564694614.',
+      en: 'Professional movers in Al Nakheel, Riyadh. Specializing in luxury villa moves, marble and chandelier protection, furniture assembly, and clean Dina trucks. Call +966 53 894 6426.',
+      ar: 'شركة نقل عفش حي النخيل بالرياض متخصصة في نقل الفلل والقصور والأثاث الفاخر مع حماية الرخام والتحف وفك وتركيب غرف النوم وتغليف بابلز فاخر. اتصل الآن: 0538946426.',
     },
     h1: {
       en: 'Movers and Packers in Al Nakheel, Riyadh',
@@ -438,8 +438,8 @@ export const districtsList = [
       ar: 'شركة نقل عفش حي حطين بالرياض | دينا وفك وتركيب وتغليف - خبراء الرياض',
     },
     seoDescription: {
-      en: 'Premium movers and packers in Hittin, North Riyadh. Safe villa moving, furniture dismantling & reassembly, bubble packaging, and prompt Dina truck service. Call +966 56 469 4614.',
-      ar: 'خدمات نقل وتغليف العفش بحي حطين بالرياض. نقل فلل وشقق راقية، فك وتركيب متقن لغرف النوم والمطابخ، دينا مغلقة سريعة على مدار 24 ساعة. هاتف: 0564694614.',
+      en: 'Premium movers and packers in Hittin, North Riyadh. Safe villa moving, furniture dismantling & reassembly, bubble packaging, and prompt Dina truck service. Call +966 53 894 6426.',
+      ar: 'خدمات نقل وتغليف العفش بحي حطين بالرياض. نقل فلل وشقق راقية، فك وتركيب متقن لغرف النوم والمطابخ، دينا مغلقة سريعة على مدار 24 ساعة. هاتف: 0538946426.',
     },
     h1: {
       en: 'Movers and Packers in Hittin, Riyadh',
@@ -491,8 +491,8 @@ export const districtsList = [
       ar: 'شركة نقل عفش حي العقيق بالرياض | دينا وفك وتركيب وتغليف - خبراء الرياض',
     },
     seoDescription: {
-      en: 'Reliable movers and packers in Al Aqiq, Riyadh near KAFD. Residential apartment and villa shifting, bedroom assembly, bubble wrap packing, and 24/7 Dina trucks: +966 56 469 4614.',
-      ar: 'دينا نقل عفش حي العقيق بالرياض بالقرب من كافد (KAFD). فك وتركيب غرف نوم، تغليف بابلز، نقل شقق وفلل بسرعة ودقة ومواعيد منضبطة على مدار 24 ساعة. اتصل: 0564694614.',
+      en: 'Reliable movers and packers in Al Aqiq, Riyadh near KAFD. Residential apartment and villa shifting, bedroom assembly, bubble wrap packing, and 24/7 Dina trucks: +966 53 894 6426.',
+      ar: 'دينا نقل عفش حي العقيق بالرياض بالقرب من كافد (KAFD). فك وتركيب غرف نوم، تغليف بابلز، نقل شقق وفلل بسرعة ودقة ومواعيد منضبطة على مدار 24 ساعة. اتصل: 0538946426.',
     },
     h1: {
       en: 'Movers and Packers in Al Aqiq, Riyadh',
@@ -544,8 +544,8 @@ export const districtsList = [
       ar: 'شركة نقل عفش حي الحمراء بالرياض | دينا وفك وتركيب وتغليف - خبراء الرياض',
     },
     seoDescription: {
-      en: 'Top movers and packers in Al Hamra, East Riyadh. Full house shifting, furniture carpentry, bubble wrapping, and fast enclosed Dina trucks. Call +966 56 469 4614 for 24/7 service.',
-      ar: 'شركة نقل اثاث حي الحمراء بالرياض. دينا نقل عفش مجهزة، فك وتركيب غرف النوم، تغليف كراتين وبابلز، وأفضل عمالة نقل أثاث مدربة في شرق الرياض على مدار 24 ساعة. هاتف: 0564694614.',
+      en: 'Top movers and packers in Al Hamra, East Riyadh. Full house shifting, furniture carpentry, bubble wrapping, and fast enclosed Dina trucks. Call +966 53 894 6426 for 24/7 service.',
+      ar: 'شركة نقل اثاث حي الحمراء بالرياض. دينا نقل عفش مجهزة، فك وتركيب غرف النوم، تغليف كراتين وبابلز، وأفضل عمالة نقل أثاث مدربة في شرق الرياض على مدار 24 ساعة. هاتف: 0538946426.',
     },
     h1: {
       en: 'Movers and Packers in Al Hamra, Riyadh',
@@ -558,9 +558,9 @@ export const districtsList = [
     faqs: [
       {
         qEn: 'How can I schedule a moving truck in Al Hamra?',
-        aEn: 'Call or WhatsApp +966 56 469 4614 anytime. Our team can book your move in Al Hamra within minutes for any day or time.',
+        aEn: 'Call or WhatsApp +966 53 894 6426 anytime. Our team can book your move in Al Hamra within minutes for any day or time.',
         qAr: 'كيف يمكنني حجز دينا نقل عفش بحي الحمراء؟',
-        aAr: 'تواصل معنا هاتفياً أو عبر واتساب على الرقم 0564694614 في أي وقت، وسيتم تأكيد موعد النقل بحي الحمراء خلال دقائق.',
+        aAr: 'تواصل معنا هاتفياً أو عبر واتساب على الرقم 0538946426 في أي وقت، وسيتم تأكيد موعد النقل بحي الحمراء خلال دقائق.',
       },
     ],
   },

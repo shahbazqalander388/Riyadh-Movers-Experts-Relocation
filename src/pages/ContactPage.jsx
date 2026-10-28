@@ -147,7 +147,7 @@ export default function ContactPage() {
                 {t.contact.cards.whatsapp.subtitle}
               </p>
               <span className="text-sm font-bold text-emerald-700 block" dir="ltr">
-                +966 56 469 4614
+                {companyInfo.phone}
               </span>
             </div>
             <div className="pt-4 mt-4 border-t border-slate-100">

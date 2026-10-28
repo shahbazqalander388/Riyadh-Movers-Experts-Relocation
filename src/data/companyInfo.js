@@ -7,10 +7,10 @@ export const companyInfo = {
     en: 'Professional moving, packing, and relocation services across Riyadh, Saudi Arabia.',
     ar: 'خدمات نقل وتغليف وفك وتركيب العفش والأثاث باحترافية وأمان في جميع أحياء الرياض بالمملكة العربية السعودية.',
   },
-  phone: '+966 56 469 4614',
-  phoneRaw: '+966564694614',
-  phoneCallUrl: 'tel:+966564694614',
-  whatsappUrl: 'https://wa.me/966564694614',
+  phone: '+966 53 894 6426',
+  phoneRaw: '+966538946426',
+  phoneCallUrl: 'tel:+966538946426',
+  whatsappUrl: 'https://wa.me/966538946426',
   email: 'Khankeratmat453@gmail.com',
   location: {
     city: {

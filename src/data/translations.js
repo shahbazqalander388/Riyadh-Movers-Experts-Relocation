@@ -292,11 +292,11 @@ export const translations = {
       title: 'Questions About Moving in Riyadh?',
       subtitle: 'Find clear answers to commonly asked questions regarding our moving, packing, and relocation services across Riyadh.',
       needMoreHelp: 'Have a specific question not answered here?',
-      contactPrompt: 'Reach out directly via WhatsApp (+966 56 469 4614) for an immediate response.',
+      contactPrompt: 'Reach out directly via WhatsApp (+966 53 894 6426) for an immediate response.',
       items: [
         {
           q: 'How much does moving and packing cost in Riyadh?',
-          a: 'Moving prices in Riyadh depend on the volume of furniture, property size (apartment, villa, or office), the number of specialized moving trucks (Dina) required, and whether premium bubble wrap packaging is included. At Riyadh Movers Experts, our rates are completely transparent with zero hidden fees. Contact us on WhatsApp at +966 56 469 4614 with pictures of your furniture for a rapid, free, and accurate quote within minutes.',
+          a: 'Moving prices in Riyadh depend on the volume of furniture, property size (apartment, villa, or office), the number of specialized moving trucks (Dina) required, and whether premium bubble wrap packaging is included. At Riyadh Movers Experts, our rates are completely transparent with zero hidden fees. Contact us on WhatsApp at +966 53 894 6426 with pictures of your furniture for a rapid, free, and accurate quote within minutes.',
         },
         {
           q: 'What kind of bubble wrap and packaging materials do you use?',
@@ -308,7 +308,7 @@ export const translations = {
         },
         {
           q: 'How can I book a moving truck or get a quote via WhatsApp?',
-          a: 'Booking via WhatsApp is instantaneous! Simply message +966 56 469 4614 or click any WhatsApp button on our site. Share your current neighborhood, your new address, your preferred moving date, and brief pictures or a video of your furniture. Our relocation supervisor will provide a prompt customized quote and reserve your truck immediately.',
+          a: 'Booking via WhatsApp is instantaneous! Simply message +966 53 894 6426 or click any WhatsApp button on our site. Share your current neighborhood, your new address, your preferred moving date, and brief pictures or a video of your furniture. Our relocation supervisor will provide a prompt customized quote and reserve your truck immediately.',
         },
         {
           q: 'Do you provide furniture dismantling, bedroom assembly, and carpentry?',
@@ -324,7 +324,7 @@ export const translations = {
         },
         {
           q: 'Are your moving services available 24/7 on weekends and holidays?',
-          a: 'Yes, Riyadh Movers Experts operates 24 hours a day, 7 days a week, including Fridays and public holidays. You can contact our moving dispatch team at +966 56 469 4614 any time of day or night.',
+          a: 'Yes, Riyadh Movers Experts operates 24 hours a day, 7 days a week, including Fridays and public holidays. You can contact our moving dispatch team at +966 53 894 6426 any time of day or night.',
         },
       ],
     },
@@ -376,7 +376,7 @@ export const translations = {
         successDesc:
           'Thank you for contacting Riyadh Movers & Experts. Your details have been submitted. For instant booking and rapid pricing, you can also connect directly on WhatsApp.',
         whatsappDirectBtn: 'Continue on WhatsApp for Instant Quote',
-        callDirectBtn: 'Call +966 56 469 4614',
+        callDirectBtn: 'Call +966 53 894 6426',
         submitAnother: 'Submit Another Request',
         errors: {
           name: 'Please enter your name',
@@ -754,11 +754,11 @@ export const translations = {
       title: 'أسئلة شائعة حول نقل الأثاث والعفش بالرياض',
       subtitle: 'إجابات وافية ومباشرة عن تكلفة نقل العفش، خامات تغليف البابلز، الأحياء المغطاة، وطريقة الحجز السريع عبر الواتساب.',
       needMoreHelp: 'هل لديك استفسار آخر لم تجد إجابته هنا؟',
-      contactPrompt: 'تواصل مباشرة مع مشرف النقل عبر واتساب (+966 56 469 4614) وسنجيبك فوراً.',
+      contactPrompt: 'تواصل مباشرة مع مشرف النقل عبر واتساب (+966 53 894 6426) وسنجيبك فوراً.',
       items: [
         {
           q: 'كم تكلفة نقل العفش بالرياض وما هي معايير التسعير؟',
-          a: 'تعتمد تكلفة نقل العفش بالرياض على حجم المنقولات (شقة، فيلا، مكتب)، وعدد غرف النوم المطلوب فكها وتركيبها، وعدد شاحنات دينا نقل العفش، وما إذا كنت بحاجة إلى كراتين وتغليف بابلز فاخر. في خبراء الرياض نقدم أسعاراً واضحة وتنافسية تبدأ من أسعار اقتصادية بدون أي رسوم خفية. يمكنك إرسال صور العفش عبر الواتساب على 0564694614 للحصول على تسعيرة دقيقة ومجانية خلال دقائق معدودة.',
+          a: 'تعتمد تكلفة نقل العفش بالرياض على حجم المنقولات (شقة، فيلا، مكتب)، وعدد غرف النوم المطلوب فكها وتركيبها، وعدد شاحنات دينا نقل العفش، وما إذا كنت بحاجة إلى كراتين وتغليف بابلز فاخر. في خبراء الرياض نقدم أسعاراً واضحة وتنافسية تبدأ من أسعار اقتصادية بدون أي رسوم خفية. يمكنك إرسال صور العفش عبر الواتساب على 0538946426 للحصول على تسعيرة دقيقة ومجانية خلال دقائق معدودة.',
         },
         {
           q: 'ما هي مواد وتغليف البابلز المستخدمة لحماية الأثاث والزجاج؟',
@@ -770,7 +770,7 @@ export const translations = {
         },
         {
           q: 'كيف يمكنني حجز دينا نقل عفش أو الحصول على تسعيرة عبر الواتساب؟',
-          a: 'الحجز عبر الواتساب في غاية السهولة والسرعة! اضغط على زر الواتساب أو راسلنا على الرقم +966564694614، وزودنا بموقعك الحالي، والحي المنقول إليه، والموعد المفضل، مع صور أو فيديو سريع لقطع الأثاث. سيقوم منسق العمليات بالرد الفوري وتزويدك بأفضل تسعيرة شاملة وتأكيد موعد الدينا وفريق العمل فوراً.',
+          a: 'الحجز عبر الواتساب في غاية السهولة والسرعة! اضغط على زر الواتساب أو راسلنا على الرقم +966538946426، وزودنا بموقعك الحالي، والحي المنقول إليه، والموعد المفضل، مع صور أو فيديو سريع لقطع الأثاث. سيقوم منسق العمليات بالرد الفوري وتزويدك بأفضل تسعيرة شاملة وتأكيد موعد الدينا وفريق العمل فوراً.',
         },
         {
           q: 'هل توفرون فنيين ونجارين لفك وتركيب غرف النوم والمطابخ بالرياض؟',
@@ -838,7 +838,7 @@ export const translations = {
         successDesc:
           'شكراً لتواصلك مع خبراء نقل الأثاث بالرياض. سنراجع طلبك ونتواصل معك بأسرع وقت. للحصول على رد وتسعير فوري يمكنك التواصل مباشرة عبر واتساب.',
         whatsappDirectBtn: 'متابعة عبر واتساب لتقييم فوري',
-        callDirectBtn: 'اتصال هاتفياً: +966 56 469 4614',
+        callDirectBtn: 'اتصال هاتفياً: +966 53 894 6426',
         submitAnother: 'إرسال طلب آخر',
         errors: {
           name: 'يرجى كتابة الاسم',
